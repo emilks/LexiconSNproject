@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="30d87dcd8309061076389630ceaad37e" label="Applicant" max_length="40" name="x_1342897_unite_un_applicant" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Citizenship" max_length="40" name="citizenship" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Citizenship" max_length="40" name="citizenship" type="choice">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Education Level" max_length="40" name="education_level" type="choice">
             <choice/>
@@ -18,7 +20,14 @@
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Opened" sequence="0" value="opened"/>
+                <element inactive_on_update="false" label="Reviewed" sequence="1" value="reviewed"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Accepted" sequence="4" value="accepted"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+            </choice>
         </element>
     </element>
 </database>
