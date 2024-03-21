@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>status</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 15:43:10</sys_created_on>
+        <sys_id>9be9257583850a1076389630ceaad335</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9be9257583850a1076389630ceaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 15:55:35</sys_updated_on>
+        <table>x_1342897_unite_un_applicant</table>
+        <ui_policy display_value="Make status field read only when its not set to opened">2f36213183850a1076389630ceaad3b2</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_ui_policy_action_9be9257583850a1076389630ceaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>status</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 15:43:10</sys_created_on><sys_id>9be9257583850a1076389630ceaad335</sys_id><sys_mod_count>1</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sys_ui_policy_action_9be9257583850a1076389630ceaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-20 15:55:35</sys_updated_on><table>x_1342897_unite_un_applicant</table><ui_policy display_value="Make status field read only when its not set to opened">2f36213183850a1076389630ceaad3b2</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>593239781</payload_hash>
+        <record_name>status</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 15:55:35</sys_created_on>
+        <sys_id>01ec21b983850a1076389630ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e5c93385e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 15:55:35</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c5ec21b998850a10af3ff47ba484d492</update_guid>
+        <update_guid_history>c5ec21b998850a10af3ff47ba484d492:593239781,8f0a6df12f850a10e840e6ecaefaaf83:-282520223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 16:04:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>2e19b6f503144c45a7dd8105b8d7dac9</sys_id>
+        <sys_metadata>9be9257583850a1076389630ceaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent display_value="">2f36213183850a1076389630ceaad3b2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_9be9257583850a1076389630ceaad335</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_9be9257583850a1076389630ceaad335">01ec21b983850a1076389630ceaad393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 16:04:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

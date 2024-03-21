@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sets service portal as default landing page.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>true</is_private>
+        <name>x_1342897_unite_un.glide.entry.page.script</name>
+        <read_roles/>
+        <suffix>glide.entry.page.script</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:10:06</sys_created_on>
+        <sys_id>91ae478983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>x_1342897_unite_un.glide.entry.page.script</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_properties_91ae478983cd061076389630ceaad320</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:20:35</sys_updated_on>
+        <type>string</type>
+        <value>UniteEntryPage().getLoginURL()</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=91ae478983cd061076389630ceaad320"/>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.container {&#13;
+    background-color: #ffffff;&#13;
+    max-width: 800px;&#13;
+    margin: 0 auto;&#13;
+    padding: 20px !important;&#13;
+    text-align: center;&#13;
+    border-radius: 10px;&#13;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);&#13;
+	margin-bottom: 20px;&#13;
+    margin-top: 20px;&#13;
+}&#13;
+&#13;
+.content {&#13;
+    color: #333333;&#13;
+    font-size: 28px;&#13;
+    margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+.content &gt; div {&#13;
+    color: #666666;&#13;
+    font-size: 16px;&#13;
+    margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+.content &gt; div:last-child {&#13;
+    margin-bottom: 0; /* Remove margin from the last div */&#13;
+}&#13;
+&#13;
+.content a {&#13;
+    background-color: #f19235;&#13;
+    color: #ffffff;&#13;
+    text-decoration: none;&#13;
+    padding: 10px 20px;&#13;
+    border-radius: 5px;&#13;
+    font-size: 18px;&#13;
+}&#13;
+</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles>x_1342897_unite_un.student</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">afddcb1d8381861076389630ceaad39e</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 09:42:24</sys_created_on>
+        <sys_id>68edcb1d8381861076389630ceaad3da</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_68edcb1d8381861076389630ceaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 13:34:54</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"container\">\r\n<div class=\"content\">\r\n<h1>Study with us</h1>\r\n<div>At Unite University, you can apply for a diverse range of international degree programmes, exchange and doctoral studies, and more.</div>\r\n<div><a href=\"https://dev243288.service-now.com/uu?id=sc_cat_item&amp;sys_id=ad2ac2458389061076389630ceaad337\">Apply Now</a></div>\r\n</div>\r\n</div>",
+		"displayValue": "<div class=\"container\">\n<div class=\"content\">\n<h1>Study with us</h1>\n<div>At Unite University, you can apply for a diverse range of international degree programmes, exchange and doctoral studies, and more.</div>\n<div><a href=\"https://dev243288.service-now.com/uu?id=sc_cat_item&amp;sys_id=ad2ac2458389061076389630ceaad337\">Apply Now</a></div>\n</div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=68edcb1d8381861076389630ceaad3da"/>
+</record_update>

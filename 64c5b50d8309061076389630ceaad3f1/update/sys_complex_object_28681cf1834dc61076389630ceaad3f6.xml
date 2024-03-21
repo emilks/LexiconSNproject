@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD24681cf1414dc610029d2ed2d9946ff6</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>64c5b50d8309061076389630ceaad3f1</scope_name>
+        <serialized_content>{"FlowDesigner:FD24681cf1414dc610029d2ed2d9946ff6":{},"FlowDesigner:FD24681cf1414dc610029d2ed2d9946ff6.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":null,\"label\":\"variable\",\"mandatory\":\"false\",\"uiUniqueId\":\"d8e2496a-b938-41bd-8701-109fcff7d59e\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD24681cf1414dc610029d2ed2d9946ff6\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:46:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28681cf1834dc61076389630ceaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD24681cf1414dc610029d2ed2d9946ff6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_complex_object_28681cf1834dc61076389630ceaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:46:22</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

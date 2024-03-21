@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1342897_unite_un_applicant" version="2" view="RPTc7d69fd583c1861076389630ceaad3ce">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>e18a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>first_name</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>658a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_name</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>e58a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>698a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>citizenship</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>e98a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mobile</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>6d8a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>program</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>ed8a9b1d83c1861076389630ceaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_1342897_unite_un_applicant" element="NULL" name="x_1342897_unite_un_applicant" parent="NULL" relationship="NULL" sys_domain="global" view="17d6dfd583c1861076389630ceaad3e7">e58a9b1d83c1861076389630ceaad375</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_id>618a9b1d83c1861076389630ceaad377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1342897_unite_un_applicant</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:37:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e58a9b1d83c1861076389630ceaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1342897_unite_un_applicant</sys_name>
+            <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+            <sys_update_name>sys_ui_list_x_1342897_unite_un_applicant_RPTc7d69fd583c1861076389630ceaad3ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:37:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptc7d69fd583c1861076389630ceaad3ce" name="RPTc7d69fd583c1861076389630ceaad3ce">17d6dfd583c1861076389630ceaad3e7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

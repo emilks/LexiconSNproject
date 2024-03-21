@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1342897_unite_un.UniteEntryPage</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Set the unite Portal as the Landing page</description>
+        <name>UniteEntryPage</name>
+        <script><![CDATA[/** 
+ *
+ *  Service Portal sample script include to indicate 
+ *  1. which login page should be used
+ *  2. the starting page after the user is authenticated 
+ * 
+ *  Script is configured using system properties
+ 
+ *  PROPERTY                        VALUE
+ *  glide.entry.page.script         new SPEntryPage().getLoginURL(); 
+ *  glide.entry.first.page.script   new SPEntryPage().getFirstPageURL();
+ * 
+ * functions can return a path or null if no overrides are necessary
+ * 
+ **/
+var SPEntryPage = Class.create();
+
+SPEntryPage.prototype = {
+
+    initialize: function() {
+        this.logVariables = false; // for debugging 
+        this.portal = "/uu/"; // The URL suffix for default portal
+    },
+
+    /***
+     *
+     * Fetch the default portal suffix
+     *
+     **/
+    getDefaultPortal: function() {
+        var gr = new GlideRecord("sp_portal");
+        gr.addQuery("default", true);
+        gr.query();
+        if (gr.next())
+            return "/" + gr.getValue("url_suffix") + "/";
+
+        return "/esc/";
+    },
+    /***
+     *
+     * Referred to by property: glide.entry.page.script
+     * 
+     **/
+    getLoginURL: function() {
+        // When requesting a page directly (eg: /problem_list.do)
+        // The platform session_timeout.do sets the login page to welcome.do
+        // Since we are handling the login, clear that value
+        var session = gs.getSession();
+        var nt = session.getProperty("nav_to");
+        var sPage = session.getProperty("starting_page");
+        if (nt == "welcome.do")
+            session.clearProperty("nav_to");
+
+        if (!sPage && !nt)
+            session.putProperty("starting_page", gs.getProperty("glide.login.home"));
+
+        // Send the user to the portal's login page
+        var portalGR = new GlideRecord("sp_portal");
+        portalGR.addQuery("url_suffix", this.portal.replace(/\//g, ""));
+        portalGR.addNotNullQuery("login_page");
+        portalGR.query();
+        if (portalGR.next())
+            return this.portal + "?id=" + portalGR.login_page.id;
+
+        // Send to the a default login page
+        return this.portal + "?id=login";
+    },
+
+    /***
+     *
+     * Referred to by property: glide.entry.first.page.script
+     * 
+     **/
+    getFirstPageURL: function() {
+        var session = gs.getSession();
+        this.logProperties('before', session);
+
+        // has roles and is not a Service Portal page - go to UI16
+        var nt = session.getProperty("nav_to");
+        var isServicePortalURL = new GlideSPScriptable().isServicePortalURL(nt);
+        var redirectURL = session.getProperty("login_redirect");
+
+        if (user.hasRoles() && !redirectURL && !isServicePortalURL)
+            return;
+
+        // user may have logged in from a frame, the /login_redirect.do page will bust out of it
+        if (!redirectURL) {
+            // redirectURL is nav_to 
+            // if nav_to == "welcome.do" then use starting_page
+            var sPage = session.getProperty("starting_page");
+            if (sPage && nt == "welcome.do")
+                nt = sPage;
+
+            // Avoid a redirect loop to the home page
+            var ep = gs.getProperty("glide.login.home");
+            if (nt) {
+                if (ep == nt)
+                    nt = null;
+            }
+            // PRB726860: if page is still welcome.do, go to glide.login.home preserving frameset
+            if (nt == "welcome.do") {
+                session.putProperty("nav_to", ep);
+                return;
+            }
+
+            session.putProperty("login_redirect", nt || "true");
+            return "/login_redirect.do?sysparm_stack=no";
+        }
+
+        session.clearProperty("login_redirect");
+        session.clearProperty("nav_to");
+        var returnUrl = this.portal;
+        if (redirectURL && redirectURL != "true") {
+            var spUrl = new GlideSPScriptable().mapUrlToSPUrl(redirectURL);
+            returnUrl = spUrl ? this.portal + "?" + spUrl : redirectURL;
+            if (!user.hasRoles() && !spUrl && redirectURL.indexOf("home_splash.do") > -1)
+				returnUrl = this.portal;
+        }
+
+        this.logProperties('after', session);
+        if (!this.logVariables) {
+            gs.log('redirectURL: ' + redirectURL);
+            gs.log('User: ' + user.getName());
+            gs.log('is internal: ' + (!user.hasRoles()));
+            gs.log('returnUrl: ' + returnUrl);
+        }
+
+        return returnUrl;
+    },
+
+    logProperties: function(beforeOrAfter, session) {
+        if (!this.logVariables)
+            return;
+
+        gs.log('SPEntryPage: Redirect ------------------------------- ' + beforeOrAfter);
+        gs.log('session.starting_page: ' + session.getProperty("starting_page"));
+        gs.log('session.nav_to: ' + session.getProperty("nav_to"));
+        gs.log('session.login_redirect: ' + session.getProperty("login_redirect"));
+        gs.log('gs.fURI: ' + session.getURI());
+    },
+
+    type: 'SPEntryPage'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:20:08</sys_created_on>
+        <sys_id>8741178d83cd061076389630ceaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UniteEntryPage</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_script_include_8741178d83cd061076389630ceaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:20:08</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_script_include_8741178d83cd061076389630ceaad3da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1342897_unite_un.UniteEntryPage&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Set the unite Portal as the Landing page&lt;/description&gt;&lt;name&gt;UniteEntryPage&lt;/name&gt;&lt;script&gt;&lt;![CDATA[/** 
+ *
+ *  Service Portal sample script include to indicate 
+ *  1. which login page should be used
+ *  2. the starting page after the user is authenticated 
+ * 
+ *  Script is configured using system properties
+ 
+ *  PROPERTY                        VALUE
+ *  glide.entry.page.script         new SPEntryPage().getLoginURL(); 
+ *  glide.entry.first.page.script   new SPEntryPage().getFirstPageURL();
+ * 
+ * functions can return a path or null if no overrides are necessary
+ * 
+ **/
+var SPEntryPage = Class.create();
+
+SPEntryPage.prototype = {
+
+    initialize: function() {
+        this.logVariables = false; // for debugging 
+        this.portal = "/uu/"; // The URL suffix for default portal
+    },
+
+    /***
+     *
+     * Fetch the default portal suffix
+     *
+     **/
+    getDefaultPortal: function() {
+        var gr = new GlideRecord("sp_portal");
+        gr.addQuery("default", true);
+        gr.query();
+        if (gr.next())
+            return "/" + gr.getValue("url_suffix") + "/";
+
+        return "/esc/";
+    },
+    /***
+     *
+     * Referred to by property: glide.entry.page.script
+     * 
+     **/
+    getLoginURL: function() {
+        // When requesting a page directly (eg: /problem_list.do)
+        // The platform session_timeout.do sets the login page to welcome.do
+        // Since we are handling the login, clear that value
+        var session = gs.getSession();
+        var nt = session.getProperty("nav_to");
+        var sPage = session.getProperty("starting_page");
+        if (nt == "welcome.do")
+            session.clearProperty("nav_to");
+
+        if (!sPage &amp;&amp; !nt)
+            session.putProperty("starting_page", gs.getProperty("glide.login.home"));
+
+        // Send the user to the portal's login page
+        var portalGR = new GlideRecord("sp_portal");
+        portalGR.addQuery("url_suffix", this.portal.replace(/\//g, ""));
+        portalGR.addNotNullQuery("login_page");
+        portalGR.query();
+        if (portalGR.next())
+            return this.portal + "?id=" + portalGR.login_page.id;
+
+        // Send to the a default login page
+        return this.portal + "?id=login";
+    },
+
+    /***
+     *
+     * Referred to by property: glide.entry.first.page.script
+     * 
+     **/
+    getFirstPageURL: function() {
+        var session = gs.getSession();
+        this.logProperties('before', session);
+
+        // has roles and is not a Service Portal page - go to UI16
+        var nt = session.getProperty("nav_to");
+        var isServicePortalURL = new GlideSPScriptable().isServicePortalURL(nt);
+        var redirectURL = session.getProperty("login_redirect");
+
+        if (user.hasRoles() &amp;&amp; !redirectURL &amp;&amp; !isServicePortalURL)
+            return;
+
+        // user may have logged in from a frame, the /login_redirect.do page will bust out of it
+        if (!redirectURL) {
+            // redirectURL is nav_to 
+            // if nav_to == "welcome.do" then use starting_page
+            var sPage = session.getProperty("starting_page");
+            if (sPage &amp;&amp; nt == "welcome.do")
+                nt = sPage;
+
+            // Avoid a redirect loop to the home page
+            var ep = gs.getProperty("glide.login.home");
+            if (nt) {
+                if (ep == nt)
+                    nt = null;
+            }
+            // PRB726860: if page is still welcome.do, go to glide.login.home preserving frameset
+            if (nt == "welcome.do") {
+                session.putProperty("nav_to", ep);
+                return;
+            }
+
+            session.putProperty("login_redirect", nt || "true");
+            return "/login_redirect.do?sysparm_stack=no";
+        }
+
+        session.clearProperty("login_redirect");
+        session.clearProperty("nav_to");
+        var returnUrl = this.portal;
+        if (redirectURL &amp;&amp; redirectURL != "true") {
+            var spUrl = new GlideSPScriptable().mapUrlToSPUrl(redirectURL);
+            returnUrl = spUrl ? this.portal + "?" + spUrl : redirectURL;
+            if (!user.hasRoles() &amp;&amp; !spUrl &amp;&amp; redirectURL.indexOf("home_splash.do") &gt; -1)
+				returnUrl = this.portal;
+        }
+
+        this.logProperties('after', session);
+        if (!this.logVariables) {
+            gs.log('redirectURL: ' + redirectURL);
+            gs.log('User: ' + user.getName());
+            gs.log('is internal: ' + (!user.hasRoles()));
+            gs.log('returnUrl: ' + returnUrl);
+        }
+
+        return returnUrl;
+    },
+
+    logProperties: function(beforeOrAfter, session) {
+        if (!this.logVariables)
+            return;
+
+        gs.log('SPEntryPage: Redirect ------------------------------- ' + beforeOrAfter);
+        gs.log('session.starting_page: ' + session.getProperty("starting_page"));
+        gs.log('session.nav_to: ' + session.getProperty("nav_to"));
+        gs.log('session.login_redirect: ' + session.getProperty("login_redirect"));
+        gs.log('gs.fURI: ' + session.getURI());
+    },
+
+    type: 'SPEntryPage'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-18 15:20:08&lt;/sys_created_on&gt;&lt;sys_id&gt;8741178d83cd061076389630ceaad3da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;UniteEntryPage&lt;/sys_name&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_8741178d83cd061076389630ceaad3da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-18 15:20:08&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>609825009</payload_hash>
+        <record_name>UniteEntryPage</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:20:09</sys_created_on>
+        <sys_id>da91d78d83cd061076389630ceaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e52260d160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:20:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1291d78de6cd0610bc23cf69203f9467</update_guid>
+        <update_guid_history>1291d78de6cd0610bc23cf69203f9467:609825009</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>8a971f3920e2403db4722acf2ef681a9</sys_id>
+        <sys_metadata>8741178d83cd061076389630ceaad3da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UniteEntryPage</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_script_include_8741178d83cd061076389630ceaad3da</sys_update_name>
+        <sys_update_version display_value="sys_script_include_8741178d83cd061076389630ceaad3da">da91d78d83cd061076389630ceaad367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

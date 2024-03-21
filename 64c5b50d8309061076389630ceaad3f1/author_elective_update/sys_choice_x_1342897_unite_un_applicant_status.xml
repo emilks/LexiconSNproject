@@ -29,9 +29,9 @@
             <sys_created_on>2024-03-18 10:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-18 10:54:59</sys_updated_on>
+            <sys_updated_on>2024-03-20 15:32:27</sys_updated_on>
             <value>opened</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -57,7 +57,7 @@
             <dependent_value/>
             <element>status</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Approved</label>
             <language>en</language>
             <name>x_1342897_unite_un_applicant</name>
@@ -67,16 +67,16 @@
             <sys_created_on>2024-03-18 10:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-18 10:54:59</sys_updated_on>
+            <sys_updated_on>2024-03-20 16:01:45</sys_updated_on>
             <value>approved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Rejected</label>
             <language>en</language>
             <name>x_1342897_unite_un_applicant</name>
@@ -86,16 +86,16 @@
             <sys_created_on>2024-03-18 10:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-18 10:54:59</sys_updated_on>
+            <sys_updated_on>2024-03-20 16:01:31</sys_updated_on>
             <value>rejected</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Accepted</label>
             <language>en</language>
             <name>x_1342897_unite_un_applicant</name>
@@ -105,16 +105,16 @@
             <sys_created_on>2024-03-18 10:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-18 10:54:59</sys_updated_on>
+            <sys_updated_on>2024-03-20 16:01:27</sys_updated_on>
             <value>accepted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>status</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Closed</label>
             <language>en</language>
             <name>x_1342897_unite_un_applicant</name>
@@ -124,9 +124,9 @@
             <sys_created_on>2024-03-18 10:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-18 10:54:59</sys_updated_on>
+            <sys_updated_on>2024-03-20 16:01:24</sys_updated_on>
             <value>closed</value>
         </sys_choice>
     </sys_choice>

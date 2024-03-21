@@ -1,0 +1,3007 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>unite_university</internal_name>
+        <label_cache>[{"name":"5ef2c27d-2049-485e-86ea-be76e36417d4.variable12","label":"14 - Create User➛sysid","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"00fa7a7d-c726-499a-aace-600b21df27da"}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Applicant Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1342897_unite_un_applicant","column_name":"number"},{"name":"81988f45-1b21-48a0-b4e9-859831cca796.item.user.first_name","label":"3 - For Each➛User Role Record➛User➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"70e07c79-6744-4113-82d3-ac54c3ce5495.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.64dc2a8d830d061076389630ceaad356}}","label":"Unite Managers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.088de2cd830d061076389630ceaad330}}","label":"Unite Users","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Applicant Record","reference":"x_1342897_unite_un_applicant","reference_display":"Applicant","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.status","label":"Trigger - Record Created➛Applicant Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_1342897_unite_un_applicant","column_name":"status","choices":[{"used":false,"label":"Opened","rawLabel":"Opened","selected":false,"missing":false,"image":"","reference":false,"value":"opened","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Reviewed","rawLabel":"Reviewed","selected":false,"missing":false,"image":"","reference":false,"value":"reviewed","parameters":{"name":"x_1342897_unite_un_applicant"}}]},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Applicant Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1342897_unite_un_applicant","column_name":"email"},{"name":"dda1bc00-cc61-456e-bff8-16f06feaf92a.Records","label":"2 - Look Up Records➛User Role Records","reference":"sys_user_has_role","reference_display":"User Role Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"81988f45-1b21-48a0-b4e9-859831cca796.item.user.email","label":"3 - For Each➛User Role Record➛User➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.first_name","label":"Trigger - Record Created➛Applicant Record➛First Name","reference":"","reference_display":"First Name","type":"string","base_type":"string","parent_table_name":"x_1342897_unite_un_applicant","column_name":"first_name"},{"name":"Created_1.current.last_name","label":"Trigger - Record Created➛Applicant Record➛Last Name","reference":"","reference_display":"Last Name","type":"string","base_type":"string","parent_table_name":"x_1342897_unite_un_applicant","column_name":"last_name"},{"name":"Created_1.current.date_of_birth","label":"Trigger - Record Created➛Applicant Record➛Date of Birth","reference":"","reference_display":"Date of Birth","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1342897_unite_un_applicant","column_name":"date_of_birth"},{"name":"Created_1.current.gender","label":"Trigger - Record Created➛Applicant Record➛Gender","reference":"","reference_display":"Gender","type":"choice","base_type":"choice","parent_table_name":"x_1342897_unite_un_applicant","column_name":"gender","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"label":"Male","rawLabel":"Male","selected":false,"missing":false,"image":"","reference":false,"value":"male","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Female","rawLabel":"Female","selected":false,"missing":false,"image":"","reference":false,"value":"female","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Other","rawLabel":"Other","selected":false,"missing":false,"image":"","reference":false,"value":"other","parameters":{"name":"x_1342897_unite_un_applicant"}}]},{"name":"Created_1.current.address","label":"Trigger - Record Created➛Applicant Record➛Address","reference":"","reference_display":"Address","type":"string","base_type":"string","parent_table_name":"x_1342897_unite_un_applicant","column_name":"address"},{"name":"Created_1.current.citizenship","label":"Trigger - Record Created➛Applicant Record➛Citizenship","reference":"","reference_display":"Citizenship","type":"choice","base_type":"choice","parent_table_name":"x_1342897_unite_un_applicant","column_name":"citizenship","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"label":"Swedish","rawLabel":"Swedish","selected":false,"missing":false,"image":"","reference":false,"value":"swedish","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Danish","rawLabel":"Danish","selected":false,"missing":false,"image":"","reference":false,"value":"danish","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Norwegian","rawLabel":"Norwegian","selected":false,"missing":false,"image":"","reference":false,"value":"norwegian","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Other","rawLabel":"Other","selected":false,"missing":false,"image":"","reference":false,"value":"other","parameters":{"name":"x_1342897_unite_un_applicant"}}]},{"name":"Created_1.current.education_level","label":"Trigger - Record Created➛Applicant Record➛Education Level","reference":"","reference_display":"Education Level","type":"choice","base_type":"choice","parent_table_name":"x_1342897_unite_un_applicant","column_name":"education_level","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"label":"Bachelor","rawLabel":"Bachelor","selected":false,"missing":false,"image":"","reference":false,"value":"bachelor","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Doctorate","rawLabel":"Doctorate","selected":false,"missing":false,"image":"","reference":false,"value":"doctorate","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Master","rawLabel":"Master","selected":false,"missing":false,"image":"","reference":false,"value":"master","parameters":{"name":"x_1342897_unite_un_applicant"}}]},{"name":"Created_1.current.program","label":"Trigger - Record Created➛Applicant Record➛Program (program)","reference":"","reference_display":"Program (program)","type":"choice","base_type":"choice","parent_table_name":"x_1342897_unite_un_applicant","column_name":"program","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"label":"Chemistry","rawLabel":"Chemistry","selected":false,"missing":false,"image":"","reference":false,"value":"chemistry","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Computer Science","rawLabel":"Computer Science","selected":false,"missing":false,"image":"","reference":false,"value":"computer science","parameters":{"name":"x_1342897_unite_un_applicant"}},{"used":false,"label":"Physics","rawLabel":"Physics","selected":false,"missing":false,"image":"","reference":false,"value":"physics","parameters":{"name":"x_1342897_unite_un_applicant"}}]},{"name":"495d2b1f-0ffc-49ff-8c4e-d97835102896.email","label":"9 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5ef2c27d-2049-485e-86ea-be76e36417d4.variable1","label":"14 - Create User➛text_password","reference_display":"text_password","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"447f7f5a-06c8-4552-8a1d-a36d2a8f4942"}},{"name":"5ef2c27d-2049-485e-86ea-be76e36417d4.variable","label":"14 - Create User➛password","reference_display":"password","type":"password2","base_type":"password2","attributes":{"uiType":"password2","uiTypeLabel":"Password (2 Way Encrypted)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"63fe80ee-5d44-4097-aabf-e5964fdfc09c"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Applicant Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1342897_unite_un_applicant","column_name":"sys_id"},{"name":"2aaf2163-1892-4ecc-ab9b-2d81462172cc.Record","label":"17 - Look Up Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Unite University</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 12:45:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac3ee6cd830d061076389630ceaad35c</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_name>Unite University</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_hub_flow_ac3ee6cd830d061076389630ceaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN914436c5834d061076389630ceaad300"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>914436c5834d061076389630ceaad300</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=914436c5834d061076389630ceaad300"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>914436c5834d061076389630ceaad300</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>d14436c5834d061076389630ceaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:01</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>914436c5834d061076389630ceaad300</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>d94436c5834d061076389630ceaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:01</sys_updated_on>
+        <value>x_1342897_unite_un_applicant</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN6c3ee6cd830d061076389630ceaad35e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ac3ee6cd830d061076389630ceaad35c</id>
+        <name>Unite University</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 12:45:29</sys_created_on>
+        <sys_id>6c3ee6cd830d061076389630ceaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 12:45:29</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6c3ee6cd830d061076389630ceaad35e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN5544f2c5834d061076389630ceaad3ef,9544f2c5834d061076389630ceaad3e8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</model>
+        <model_id>ac3ee6cd830d061076389630ceaad35c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:00</sys_created_on>
+        <sys_id>5544f2c5834d061076389630ceaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5544f2c5834d061076389630ceaad3ef"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</model>
+        <model_id>ac3ee6cd830d061076389630ceaad35c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:00</sys_created_on>
+        <sys_id>9544f2c5834d061076389630ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9544f2c5834d061076389630ceaad3e8"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN262ab28d834d061076389630ceaad3ad,36d6b289834d061076389630ceaad3b6,3ed6b289834d061076389630ceaad3c2,430b198a83c54a1076389630ceaad32d,514436c5834d061076389630ceaad309,662ab28d834d061076389630ceaad39a,87a7883583c9c61076389630ceaad322,8926694a83094a1076389630ceaad3be,c77cba41838d061076389630ceaad3e7,db7e9b418341461076389630ceaad3ee,ee2ab28d834d061076389630ceaad380,f2f17b198345861076389630ceaad304,f7065ca98349861076389630ceaad370"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>10</order>
+        <parent_ui_id>033f1a2f-b8a8-4ef4-8b74-8aa39b794108</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>262ab28d834d061076389630ceaad3ad</sys_id>
+        <sys_mod_count>148</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>1beb7fdc-c71a-49cd-b528-a0d1cbd3031e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=262ab28d834d061076389630ceaad3ad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>262ab28d834d061076389630ceaad3ad</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>a62ab28d834d061076389630ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value>x_1342897_unite_un_applicant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>262ab28d834d061076389630ceaad3ad</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>e22ab28d834d061076389630ceaad3af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 16:38:39</sys_updated_on>
+        <value>status=rejected^=</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=262ab28d834d061076389630ceaad3ad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>262ab28d834d061076389630ceaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>622ab28d834d061076389630ceaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>262ab28d834d061076389630ceaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ea2ab28d834d061076389630ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>262ab28d834d061076389630ceaad3ad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ae2ab28d834d061076389630ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=262ab28d834d061076389630ceaad3ad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=262ab28d834d061076389630ceaad3ad"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>36d6b289834d061076389630ceaad3b6</sys_id>
+        <sys_mod_count>150</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>dda1bc00-cc61-456e-bff8-16f06feaf92a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36d6b289834d061076389630ceaad3b6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6b289834d061076389630ceaad3b6</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>72d6b289834d061076389630ceaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:23:19</sys_updated_on>
+        <value>sys_user_has_role</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>36d6b289834d061076389630ceaad3b6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>bed6b289834d061076389630ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:23:19</sys_updated_on>
+        <value>role=ccf5b50d8309061076389630ceaad3fd</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=36d6b289834d061076389630ceaad3b6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=36d6b289834d061076389630ceaad3b6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=36d6b289834d061076389630ceaad3b6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>4</order>
+        <parent_ui_id>81988f45-1b21-48a0-b4e9-859831cca796</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>3ed6b289834d061076389630ceaad3c2</sys_id>
+        <sys_mod_count>150</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>913d31a3-9830-498c-a369-913bb659b438</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ed6b289834d061076389630ceaad3c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ed6b289834d061076389630ceaad3c2</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>32d6b289834d061076389630ceaad3c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:42</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3ed6b289834d061076389630ceaad3c2</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>f2d6b289834d061076389630ceaad3c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:03:34</sys_updated_on>
+        <value>Student Application Review Request</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3ed6b289834d061076389630ceaad3c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>3ed6b289834d061076389630ceaad3c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>fad6b289834d061076389630ceaad3c4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 12:56:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Student Application Review Request&lt;/h1&gt;
+&lt;p&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5af21e2d-4471-4531-a69a-b43198e35a27}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:5af21e2d-4471-4531-a69a-b43198e35a27}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="3 - For Each &amp;gt; User Role Record &amp;gt; User &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;3 - For Each&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5af21e2d-4471-4531-a69a-b43198e35a27" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;We have received a new student application that requires your attention. The details of the applicant are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fea36e01-3151-48e4-be60-1e487c5a46c4}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:fea36e01-3151-48e4-be60-1e487c5a46c4}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fea36e01-3151-48e4-be60-1e487c5a46c4" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b244926f-d641-41d0-a5d7-4ccb095c48bc}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b244926f-d641-41d0-a5d7-4ccb095c48bc}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b244926f-d641-41d0-a5d7-4ccb095c48bc" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Application ID:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:efbb565c-9af3-413a-8145-4ec23f0bdd69}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:efbb565c-9af3-413a-8145-4ec23f0bdd69}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_efbb565c-9af3-413a-8145-4ec23f0bdd69" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Program:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:195a6df0-6a8f-48ab-924e-57f399af35e6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:195a6df0-6a8f-48ab-924e-57f399af35e6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; Program (program)"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Program (program)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_195a6df0-6a8f-48ab-924e-57f399af35e6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please review the application at your earliest convenience and provide your feedback. If you have any questions or need further information, please do not hesitate to reach out.&lt;/p&gt;
+&lt;p&gt;Thank you for your attention to this matter.&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;/p&gt;
+&lt;p&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;
+&lt;/div&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>3ed6b289834d061076389630ceaad3c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>bed6b289834d061076389630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:23:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>3ed6b289834d061076389630ceaad3c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>3ad6b289834d061076389630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:23:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{81988f45-1b21-48a0-b4e9-859831cca796.item.user.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ed6b289834d061076389630ceaad3c2^sys_idNOT IN147514bd830dc61076389630ceaad3bf"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>ah_body</input_name>
+        <instance>3ed6b289834d061076389630ceaad3c2</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"ah_body":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:31</sys_created_on>
+        <sys_id>147514bd830dc61076389630ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:31</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3ed6b289834d061076389630ceaad3c2"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>17</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 09:16:07</sys_created_on>
+        <sys_id>430b198a83c54a1076389630ceaad32d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>2aaf2163-1892-4ecc-ab9b-2d81462172cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=430b198a83c54a1076389630ceaad32d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>430b198a83c54a1076389630ceaad32d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 09:16:07</sys_created_on>
+        <sys_id>0f0b198a83c54a1076389630ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 09:16:07</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=430b198a83c54a1076389630ceaad32d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>430b198a83c54a1076389630ceaad32d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 09:16:07</sys_created_on>
+        <sys_id>c30b198a83c54a1076389630ceaad32f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{5ef2c27d-2049-485e-86ea-be76e36417d4.variable12}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>430b198a83c54a1076389630ceaad32d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 09:16:07</sys_created_on>
+        <sys_id>8b0b198a83c54a1076389630ceaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 09:16:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=430b198a83c54a1076389630ceaad32d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=430b198a83c54a1076389630ceaad32d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>514436c5834d061076389630ceaad309</sys_id>
+        <sys_mod_count>152</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>c419cb63-f934-4c70-bcb2-0b1360bf1b17</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=514436c5834d061076389630ceaad309"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>514436c5834d061076389630ceaad309</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>9d4436c5834d061076389630ceaad30c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:17:49</sys_updated_on>
+        <value>Thank You for Applying to Unite University!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>514436c5834d061076389630ceaad309</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>d94436c5834d061076389630ceaad30c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:58</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=514436c5834d061076389630ceaad309"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>514436c5834d061076389630ceaad309</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>954436c5834d061076389630ceaad30c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:17:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;div class="container"&gt;
+&lt;h1&gt;Thank You for Applying to Unite University!&lt;/h1&gt;
+&lt;p&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5a4c4bd8-1e39-44f1-b4c3-e9eee3e089d6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:5a4c4bd8-1e39-44f1-b4c3-e9eee3e089d6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_5a4c4bd8-1e39-44f1-b4c3-e9eee3e089d6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;We wanted to take a moment to thank you for submitting your application to Unite University. We appreciate the time and effort you've put into your application.&lt;/p&gt;
+&lt;p&gt;Our admissions team will carefully review your application and notify you of the decision as soon as possible.&lt;/p&gt;
+&lt;p&gt;In the meantime, if you have any questions or need further assistance, please feel free to contact us.&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;/p&gt;
+&lt;p&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;
+&lt;/div&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>514436c5834d061076389630ceaad309</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>594436c5834d061076389630ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>514436c5834d061076389630ceaad309</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:01</sys_created_on>
+        <sys_id>9d4436c5834d061076389630ceaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=514436c5834d061076389630ceaad309"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=514436c5834d061076389630ceaad309"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>9</order>
+        <parent_ui_id>033f1a2f-b8a8-4ef4-8b74-8aa39b794108</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>662ab28d834d061076389630ceaad39a</sys_id>
+        <sys_mod_count>148</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>495d2b1f-0ffc-49ff-8c4e-d97835102896</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=662ab28d834d061076389630ceaad39a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>662ab28d834d061076389630ceaad39a</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>6a2ab28d834d061076389630ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value>You have been rejected</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>662ab28d834d061076389630ceaad39a</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>fbd29f018301461076389630ceaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=662ab28d834d061076389630ceaad39a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>662ab28d834d061076389630ceaad39a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>77d29f018301461076389630ceaad3a7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 12:56:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Application Decision from Unite University&lt;/h1&gt;
+&lt;p&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:89f4d208-75d7-430c-8994-52918ba46c6d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:89f4d208-75d7-430c-8994-52918ba46c6d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_89f4d208-75d7-430c-8994-52918ba46c6d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;I regret to inform you that your application to Unite University has been declined.&lt;/p&gt;
+&lt;p&gt;While we appreciate your interest, this decision was made after careful consideration. We encourage you to explore other opportunities that align with your goals.&lt;/p&gt;
+&lt;p&gt;If you have questions or need support, feel free to reach out.&lt;/p&gt;
+&lt;p&gt;Best regards,&lt;/p&gt;
+&lt;p&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;
+&lt;/div&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>662ab28d834d061076389630ceaad39a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>e62ab28d834d061076389630ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>662ab28d834d061076389630ceaad39a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>262ab28d834d061076389630ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=662ab28d834d061076389630ceaad39a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=662ab28d834d061076389630ceaad39a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>15</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>87a7883583c9c61076389630ceaad322</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>35ea0dbf-5b19-455f-a1fa-25d173581f41</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87a7883583c9c61076389630ceaad322"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>87a7883583c9c61076389630ceaad322</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>0fa7883583c9c61076389630ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:22</sys_updated_on>
+        <value>Congratulations! You've Been Accepted to Unite University! 🎓</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>87a7883583c9c61076389630ceaad322</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>47a7883583c9c61076389630ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:22</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=87a7883583c9c61076389630ceaad322"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>87a7883583c9c61076389630ceaad322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>03a7883583c9c61076389630ceaad325</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 12:56:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class="container"&gt;
+&lt;h1&gt;Welcome to Unite University!&lt;/h1&gt;
+&lt;p&gt;Congratulations on your acceptance to Unite University! We're thrilled to have you join our vibrant community of scholars.&lt;/p&gt;
+&lt;p&gt;Here are your login details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Username:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b43938c2-4e16-4bb2-92a8-76eb8d0824d0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b43938c2-4e16-4bb2-92a8-76eb8d0824d0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; First Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b43938c2-4e16-4bb2-92a8-76eb8d0824d0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:438495a4-538a-448c-a418-bb2287df6218}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:438495a4-538a-448c-a418-bb2287df6218}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Applicant Record &amp;gt; Last Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Last Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_438495a4-538a-448c-a418-bb2287df6218" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Password:&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0ef63792-c629-4f79-acc1-e3d73a0dff8d}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:0ef63792-c629-4f79-acc1-e3d73a0dff8d}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="14 - Create User &amp;gt; text_password"&gt;&lt;span class="pill-start"&gt;14 - Create User&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;text_password&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_0ef63792-c629-4f79-acc1-e3d73a0dff8d" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use these credentials to access our online portal, where you'll find important information about your enrollment, academic resources, and campus events. Additionally, feel free to explore our website to learn more about the various services and opportunities available to you as a Unite University student.&lt;/p&gt;
+&lt;p&gt;Should you have any questions or need assistance, please don't hesitate to reach out to us. Director of Admissions, John Doe, and our team are here to support you every step of the way.&lt;/p&gt;
+&lt;div class="signature"&gt;
+&lt;p&gt;Best regards,&lt;/p&gt;
+&lt;p&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>87a7883583c9c61076389630ceaad322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>c3a7883583c9c61076389630ceaad325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>87a7883583c9c61076389630ceaad322</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:22</sys_created_on>
+        <sys_id>4ba7883583c9c61076389630ceaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=87a7883583c9c61076389630ceaad322"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=87a7883583c9c61076389630ceaad322"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>18</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:04:35</sys_created_on>
+        <sys_id>8926694a83094a1076389630ceaad3be</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>cbbd0c80-00a0-4a98-8242-e3bc1310a33b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8926694a83094a1076389630ceaad3be"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8926694a83094a1076389630ceaad3be</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:04:35</sys_created_on>
+        <sys_id>0926694a83094a1076389630ceaad3c0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:24:40</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8926694a83094a1076389630ceaad3be</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:04:35</sys_created_on>
+        <sys_id>cd26694a83094a1076389630ceaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:04:35</sys_updated_on>
+        <value>sys_user_grmember</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8926694a83094a1076389630ceaad3be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8926694a83094a1076389630ceaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:04:35</sys_created_on>
+        <sys_id>c126694a83094a1076389630ceaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:04:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8926694a83094a1076389630ceaad3be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:04:35</sys_created_on>
+        <sys_id>8526694a83094a1076389630ceaad3c0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:24:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>group={"display":"Unite Students","value":"2b968b4d838d061076389630ceaad3f2","sys_id":"2b968b4d838d061076389630ceaad3f2"}^user={{2aaf2163-1892-4ecc-ab9b-2d81462172cc.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8926694a83094a1076389630ceaad3be"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8926694a83094a1076389630ceaad3be"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>c77cba41838d061076389630ceaad3e7</sys_id>
+        <sys_mod_count>142</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>309fed1c-4862-4762-b2cb-5a33dfdb6e26</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c77cba41838d061076389630ceaad3e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c77cba41838d061076389630ceaad3e7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>0f7cba41838d061076389630ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:47:54</sys_updated_on>
+        <value>x_1342897_unite_un_applicant</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c77cba41838d061076389630ceaad3e7</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>477cba41838d061076389630ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:47:54</sys_updated_on>
+        <value>status=reviewed</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c77cba41838d061076389630ceaad3e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>c77cba41838d061076389630ceaad3e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>037cba41838d061076389630ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:47:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c77cba41838d061076389630ceaad3e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>4b7cba41838d061076389630ceaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:47:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c77cba41838d061076389630ceaad3e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:47:54</sys_created_on>
+        <sys_id>c37cba41838d061076389630ceaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:47:54</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c77cba41838d061076389630ceaad3e7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c77cba41838d061076389630ceaad3e7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>13</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>db7e9b418341461076389630ceaad3ee</sys_id>
+        <sys_mod_count>126</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>da219475-7e31-49ff-b06b-fc28bb7b4de0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=db7e9b418341461076389630ceaad3ee"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>db7e9b418341461076389630ceaad3ee</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>237e9b418341461076389630ceaad3f1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 17:20:59</sys_updated_on>
+        <value>status=approved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>db7e9b418341461076389630ceaad3ee</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>e77e9b418341461076389630ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 16:16:29</sys_updated_on>
+        <value>x_1342897_unite_un_applicant</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=db7e9b418341461076389630ceaad3ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>db7e9b418341461076389630ceaad3ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>af7e9b418341461076389630ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 16:16:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>db7e9b418341461076389630ceaad3ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>277e9b418341461076389630ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 16:16:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>db7e9b418341461076389630ceaad3ee</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:16:29</sys_created_on>
+        <sys_id>eb7e9b418341461076389630ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 16:16:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=db7e9b418341461076389630ceaad3ee^sys_idNOT IN5493e7c58341461076389630ceaad34d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>values</input_name>
+        <instance>db7e9b418341461076389630ceaad3ee</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"first_name":{"scriptActive":true,"script":"var num \u003d Math.random();\nreturn num;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 16:38:39</sys_created_on>
+        <sys_id>5493e7c58341461076389630ceaad34d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 17:20:59</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=db7e9b418341461076389630ceaad3ee"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>7</order>
+        <parent_ui_id>076bdbe1-4e32-4bb7-8dff-c90d1838e741</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ee2ab28d834d061076389630ceaad380</sys_id>
+        <sys_mod_count>148</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>70e07c79-6744-4113-82d3-ac54c3ce5495</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee2ab28d834d061076389630ceaad380"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ee2ab28d834d061076389630ceaad380</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ae2ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value>x_1342897_unite_un_applicant</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ee2ab28d834d061076389630ceaad380</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ea2ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ee2ab28d834d061076389630ceaad380"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>ee2ab28d834d061076389630ceaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>a62ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyG[{{static.64dc2a8d830d061076389630ceaad356}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>ee2ab28d834d061076389630ceaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>e22ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ee2ab28d834d061076389630ceaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>222ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>ee2ab28d834d061076389630ceaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>6a2ab28d834d061076389630ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee2ab28d834d061076389630ceaad380"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee2ab28d834d061076389630ceaad380"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>16</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>f2f17b198345861076389630ceaad304</sys_id>
+        <sys_mod_count>92</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>ebe68958-ab97-41aa-ac3b-beb20d1ef3d5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2f17b198345861076389630ceaad304"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2f17b198345861076389630ceaad304</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>baf17b198345861076389630ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 12:20:07</sys_updated_on>
+        <value>Discover Unite University: Empowering Minds, Inspiring Futures</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2f17b198345861076389630ceaad304</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>f2f17b198345861076389630ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 12:20:07</sys_updated_on>
+        <value>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div class="container"&gt;
+&lt;h1 style="text-align: center;"&gt;Unite University: Empowering Minds, Inspiring Futures&lt;/h1&gt;
+&lt;h1&gt;&lt;img style="border-radius: 50%; border-width: 10px; border-style: double; display: block; margin-left: auto; margin-right: auto;" title="" src="/sys_attachment.do?sys_id&amp;#61;1972df5183c1861076389630ceaad37a" alt="" width="500" height="334" /&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;About Unite University:&lt;/strong&gt; Established with a vision to transform lives through education, Unite University has emer&lt;/p&gt;
+&lt;p&gt;ged as a leading global institution renowned for its commitment to excellence across a diverse range of disciplines. Situated in the heart of Sweden, our campus provides a stimulating environment conducive to learning, research, and personal growth.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Academic Excellence:&lt;/strong&gt; At Unite University, academic excellence is at the core of everything we do. Our distinguished faculty members are leaders in their fields, renowned for their expertise and commitment to student success. Through innovative teaching methodologies, rigorous coursework, and hands-on learning experiences, we equip our students with the knowledge, skills, and critical thinking abilities necessary to excel in their chosen fields and make meaningful contributions to society.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Diverse Programs and Opportunities:&lt;/strong&gt; We offer a comprehensive range of undergraduate, graduate, and professional programs designed to cater to the diverse interests and aspirations of our student body. From the sciences to the humanities, business to engineering, our curriculum is carefully crafted to provide students with a well-rounded education that prepares them for success in an increasingly interconnected world. Additionally, our extensive network of industry partnerships and internship opportunities ensures that students gain real-world experience and valuable insights into their chosen fields.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Innovative Research and Scholarship:&lt;/strong&gt; At Unite University, we are committed to pushing the boundaries of knowledge through cutting-edge research and scholarship. Our faculty members are actively engaged in groundbreaking research across a variety of disciplines, tackling some of the most pressing challenges facing society today. Through collaborative research projects, interdisciplinary initiatives, and state-of-the-art facilities, we provide students with opportunities to engage in hands-on research and contribute to the advancement of knowledge in their respective fields.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inclusive Community and Campus Life:&lt;/strong&gt; We believe that diversity is our strength, and we are proud to cultivate a welcoming and inclusive community where individuals from all backgrounds feel valued, respected, and empowered to succeed. Our vibrant campus life offers a wealth of opportunities for students to engage in extracurricular activities, participate in student clubs and organizations, and contribute to the broader community through service-learning initiatives and volunteer work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Global Perspective:&lt;/strong&gt; As a globally minded institution, Unite University embraces diversity and celebrates the rich tapestry of cultures, perspectives, and experiences that enrich our campus community. Through study abroad programs, international exchange opportunities, and multicultural events, we encourage students to broaden their horizons, expand their worldview, and become global citizens poised to make a positive impact on the world.&lt;/p&gt;
+&lt;div class="conclusion"&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; At Unite University, we are dedicated to empowering our students to reach their full potential, pursue their passions, and become leaders in their respective fields. Whether you&amp;#39;re embarking on your academic journey as a freshman or pursuing advanced studies as a graduate student, we invite you to join us in our pursuit of excellence and innovation. Together, let us unite our minds, inspire one another, and create a brighter future for generations to come.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="signature"&gt;
+&lt;p&gt;&lt;em&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</value>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2f17b198345861076389630ceaad304"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>f2f17b198345861076389630ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>bef17b198345861076389630ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 12:20:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>f2f17b198345861076389630ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>72f17b198345861076389630ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 12:20:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>f2f17b198345861076389630ceaad304</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 12:20:07</sys_created_on>
+        <sys_id>f6f17b198345861076389630ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 12:20:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2f17b198345861076389630ceaad304"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2f17b198345861076389630ceaad304"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create User">930594698349861076389630ceaad334</action_type>
+        <action_type_parent display_value="Create User">1dbf08218349861076389630ceaad357</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <order>14</order>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:57:44</sys_created_on>
+        <sys_id>f7065ca98349861076389630ceaad370</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>5ef2c27d-2049-485e-86ea-be76e36417d4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f7065ca98349861076389630ceaad370"/>
+    <sys_element_mapping action="delete_multiple" query="id=f7065ca98349861076389630ceaad370"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>email</field>
+        <id>f7065ca98349861076389630ceaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:42:21</sys_created_on>
+        <sys_id>e6b9ccf583c9c61076389630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_930594698349861076389630ceaad334</table>
+        <value>{{Created_1.current.email}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>first_name</field>
+        <id>f7065ca98349861076389630ceaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:42:21</sys_created_on>
+        <sys_id>26b9ccf583c9c61076389630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_930594698349861076389630ceaad334</table>
+        <value>{{Created_1.current.first_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>last_name</field>
+        <id>f7065ca98349861076389630ceaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:42:21</sys_created_on>
+        <sys_id>62b9ccf583c9c61076389630ceaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:42:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_930594698349861076389630ceaad334</table>
+        <value>{{Created_1.current.last_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user_name</field>
+        <id>f7065ca98349861076389630ceaad370</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:57:44</sys_created_on>
+        <sys_id>bf065ca98349861076389630ceaad371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:44:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_930594698349861076389630ceaad334</table>
+        <value>{{Created_1.current.first_name}}.{{Created_1.current.last_name}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f7065ca98349861076389630ceaad370"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f7065ca98349861076389630ceaad370"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN32d6b289834d061076389630ceaad3b9,6e2ab28d834d061076389630ceaad35e,8df6a1ca83094a1076389630ceaad364,9faef07583410a1076389630ceaad33a,aa2ab28d834d061076389630ceaad384,ea2ab28d834d061076389630ceaad3b2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">76d6b289834d061076389630ceaad3b8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>32d6b289834d061076389630ceaad3b9</sys_id>
+        <sys_mod_count>75</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>81988f45-1b21-48a0-b4e9-859831cca796</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=32d6b289834d061076389630ceaad3b9"/>
+    <sys_element_mapping action="delete_multiple" query="id=32d6b289834d061076389630ceaad3b9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>32d6b289834d061076389630ceaad3b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:23:19</sys_created_on>
+        <sys_id>f2d6b289834d061076389630ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:23:19</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{dda1bc00-cc61-456e-bff8-16f06feaf92a.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=32d6b289834d061076389630ceaad3b9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=32d6b289834d061076389630ceaad3b9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e62ab28d834d061076389630ceaad35e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>6e2ab28d834d061076389630ceaad35e</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>076bdbe1-4e32-4bb7-8dff-c90d1838e741</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6e2ab28d834d061076389630ceaad35e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>6e2ab28d834d061076389630ceaad35e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>262ab28d834d061076389630ceaad37b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <value>status == reviewed</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e2ab28d834d061076389630ceaad35e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>6e2ab28d834d061076389630ceaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>a22ab28d834d061076389630ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.status}}=reviewed</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>6e2ab28d834d061076389630ceaad35e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ea2ab28d834d061076389630ceaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6e2ab28d834d061076389630ceaad35e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e2ab28d834d061076389630ceaad35e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">c1f6a1ca83094a1076389630ceaad364</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>19</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3ae8c200-868c-4dcb-9286-7244132be080</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 10:08:08</sys_created_on>
+        <sys_id>8df6a1ca83094a1076389630ceaad364</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>0bfe1546-8245-4503-9d39-f4ef608a29ed</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8df6a1ca83094a1076389630ceaad364"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8df6a1ca83094a1076389630ceaad364"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8df6a1ca83094a1076389630ceaad364"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d3aef07583410a1076389630ceaad33a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>033f1a2f-b8a8-4ef4-8b74-8aa39b794108</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 12:33:40</sys_created_on>
+        <sys_id>9faef07583410a1076389630ceaad33a</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>5ba70687-9783-487e-964c-1b43f737ffd1</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9faef07583410a1076389630ceaad33a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9faef07583410a1076389630ceaad33a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9faef07583410a1076389630ceaad33a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">262ab28d834d061076389630ceaad384</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>076bdbe1-4e32-4bb7-8dff-c90d1838e741</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>aa2ab28d834d061076389630ceaad384</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>033f1a2f-b8a8-4ef4-8b74-8aa39b794108</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=aa2ab28d834d061076389630ceaad384"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>aa2ab28d834d061076389630ceaad384</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ee2ab28d834d061076389630ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value>If approval == rejected</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aa2ab28d834d061076389630ceaad384"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>aa2ab28d834d061076389630ceaad384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>6e2ab28d834d061076389630ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{70e07c79-6744-4113-82d3-ac54c3ce5495.approval_state}}=rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>aa2ab28d834d061076389630ceaad384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>aa2ab28d834d061076389630ceaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=aa2ab28d834d061076389630ceaad384"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa2ab28d834d061076389630ceaad384"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">662ab28d834d061076389630ceaad3b2</block>
+        <comment/>
+        <connected_to>033f1a2f-b8a8-4ef4-8b74-8aa39b794108</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Unite University">ac3ee6cd830d061076389630ceaad35c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>076bdbe1-4e32-4bb7-8dff-c90d1838e741</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ea2ab28d834d061076389630ceaad3b2</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 10:50:53</sys_updated_on>
+        <ui_id>3ae8c200-868c-4dcb-9286-7244132be080</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ea2ab28d834d061076389630ceaad3b2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ea2ab28d834d061076389630ceaad3b2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>ee2ab28d834d061076389630ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <value>Approval == approved</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ea2ab28d834d061076389630ceaad3b2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ea2ab28d834d061076389630ceaad3b2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>6e2ab28d834d061076389630ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{70e07c79-6744-4113-82d3-ac54c3ce5495.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ea2ab28d834d061076389630ceaad3b2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:37:46</sys_created_on>
+        <sys_id>aa2ab28d834d061076389630ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:37:46</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ea2ab28d834d061076389630ceaad3b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ea2ab28d834d061076389630ceaad3b2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN059c48998305461076389630ceaad38e,083657858301461076389630ceaad3dc,08c47465830d861076389630ceaad3c2,0ad084ad8385861076389630ceaad37c,0c8810ed8349861076389630ceaad3b3,107554bd830dc61076389630ceaad331,1962406183c5861076389630ceaad386,219e4471830dc61076389630ceaad317,2713b4e1830d861076389630ceaad336,2b13b4e1830d861076389630ceaad335,2f013821830d861076389630ceaad3a6,33d29f018301461076389630ceaad3b7,35a6c42983c5861076389630ceaad30d,3abf4fc983cd061076389630ceaad320,3ebf4fc983cd061076389630ceaad31f,44c47465830d861076389630ceaad3c2,451448dd83c1461076389630ceaad3cb,47d1e8e98389861076389630ceaad346,5171c4ed8385861076389630ceaad39e,5ba7883583c9c61076389630ceaad332,5c7554bd830dc61076389630ceaad330,5ed1d0f5830dc61076389630ceaad302,6313b4e1830d861076389630ceaad336,67013821830d861076389630ceaad3a6,6d9e4471830dc61076389630ceaad317,6e0c88598305461076389630ceaad391,6f13b4e1830d861076389630ceaad336,72bf4fc983cd061076389630ceaad321,74cd37c583c1461076389630ceaad303,76bf4fc983cd061076389630ceaad320,7abf4fc983cd061076389630ceaad31f,7da6c42983c5861076389630ceaad30c,7fd29f018301461076389630ceaad3b6,826150258349861076389630ceaad3d8,8bc3c9bd83410a1076389630ceaad30a,8cc47465830d861076389630ceaad3c1,8d1448dd83c1461076389630ceaad3ca,8fd1e8e98389861076389630ceaad345,947554bd830dc61076389630ceaad330,947554bd830dc61076389630ceaad331,97a7883583c9c61076389630ceaad332,9974c42583c5861076389630ceaad3c1,9ad1d0f5830dc61076389630ceaad302,a6bf4fc983cd061076389630ceaad31f,a99e4471830dc61076389630ceaad317,ab13b4e1830d861076389630ceaad336,af13b4e1830d861076389630ceaad335,b2bf4fc983cd061076389630ceaad320,bb065ca98349861076389630ceaad38e,bbd29f018301461076389630ceaad3b6,bebf4fc983cd061076389630ceaad320,c9cfe7c58381461076389630ceaad3e9,ced084ad8385861076389630ceaad37c,d07554bd830dc61076389630ceaad331,d174c42583c5861076389630ceaad3c1,d2d1d0f5830dc61076389630ceaad302,dfa7883583c9c61076389630ceaad331,e2bf4fc983cd061076389630ceaad31f,e59e4471830dc61076389630ceaad317,e713b4e1830d861076389630ceaad336,eabf4fc983cd061076389630ceaad31e,eb13b4e1830d861076389630ceaad335,ef013821830d861076389630ceaad3a6,f3065ca98349861076389630ceaad38e,f7d29f018301461076389630ceaad3b6,fabf4fc983cd061076389630ceaad320,febf4fc983cd061076389630ceaad31f,ffd29f018301461076389630ceaad3b5"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 19:37:50</sys_created_on>
+        <sys_id>059c48998305461076389630ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 19:37:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>410c7b84-604b-43af-8fe8-e84955278fad</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:40:12</sys_created_on>
+        <sys_id>083657858301461076389630ceaad3dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:40:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e0fddfa9-bedb-41bb-83f5-a162f64df798</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:11:50</sys_created_on>
+        <sys_id>08c47465830d861076389630ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:11:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5150af6-090c-4858-bd05-3bbdb2e52174</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:25:03</sys_created_on>
+        <sys_id>0ad084ad8385861076389630ceaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:25:03</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>436b58e9-2b24-4adf-95bf-5cd60117d748</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 15:08:24</sys_created_on>
+        <sys_id>0c8810ed8349861076389630ceaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 15:08:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>70c53bf1-3906-45a5-afa9-552161a497e8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:32</sys_created_on>
+        <sys_id>107554bd830dc61076389630ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b244926f-d641-41d0-a5d7-4ccb095c48bc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:31:50</sys_created_on>
+        <sys_id>1962406183c5861076389630ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:31:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f6511af0-8576-41bd-8d88-4f3f6ee4b24a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{81988f45-1b21-48a0-b4e9-859831cca796.item.user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:03:34</sys_created_on>
+        <sys_id>219e4471830dc61076389630ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:03:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>164eed5e-5592-47f6-8caf-f2203d9ecd9e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>2713b4e1830d861076389630ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>11e4ebcd-378b-4e7f-b78f-92cce1b8979f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>2b13b4e1830d861076389630ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>448b6bcb-c5d9-48c8-bdc4-fb8cf47d4d63</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 16:55:42</sys_created_on>
+        <sys_id>2f013821830d861076389630ceaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 16:55:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c8f951d5-b952-4d06-b7cf-3c2eb345f1f5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>33d29f018301461076389630ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f83eb505-1fb7-436c-b93a-d3c67b5318bb</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:50:26</sys_created_on>
+        <sys_id>35a6c42983c5861076389630ceaad30d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:50:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>511669c6-09ef-4f2b-828c-2994d7d8cde7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>3abf4fc983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>12284f10-622e-403f-86e5-93419da7f7a8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>3ebf4fc983cd061076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>77703b26-8b29-463b-965d-4d9b693798e1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:11:50</sys_created_on>
+        <sys_id>44c47465830d861076389630ceaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:11:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0fa7687d-68d2-46b4-ac10-3d037dba8be6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 19:00:42</sys_created_on>
+        <sys_id>451448dd83c1461076389630ceaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 19:00:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6372e6fe-5b67-4cc1-b572-66f56a04d0e5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 15:49:18</sys_created_on>
+        <sys_id>47d1e8e98389861076389630ceaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 15:49:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>99a19971-220f-4624-b061-669417fd2cbd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:27:44</sys_created_on>
+        <sys_id>5171c4ed8385861076389630ceaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:27:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0775e569-27dd-4cd0-b4a4-7f23b22df0d7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:23</sys_created_on>
+        <sys_id>5ba7883583c9c61076389630ceaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0ef63792-c629-4f79-acc1-e3d73a0dff8d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:32</sys_created_on>
+        <sys_id>5c7554bd830dc61076389630ceaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fea36e01-3151-48e4-be60-1e487c5a46c4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.sys_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:17:50</sys_created_on>
+        <sys_id>5ed1d0f5830dc61076389630ceaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:17:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2b0b9eb4-846d-4489-82a8-893cb1ca5722</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>6313b4e1830d861076389630ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>539203d0-68bc-4ceb-b223-231a93f7c22d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 16:55:42</sys_created_on>
+        <sys_id>67013821830d861076389630ceaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 16:55:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ac4e6f5-3d2b-4870-bdda-d8ad4b68dfea</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.program}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:03:34</sys_created_on>
+        <sys_id>6d9e4471830dc61076389630ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:03:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7018297f-f405-4ffd-8ef7-9c0fc9bee9a9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20371d27-ef45-43a9-b00a-7a0a9bf5462b.record.user_password}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 19:35:29</sys_created_on>
+        <sys_id>6e0c88598305461076389630ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 19:35:29</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b0194c45-90fe-445a-8b1d-9ccca53cb6cc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>6f13b4e1830d861076389630ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0b8a7755-b6c8-40ff-846b-07e9e34ab84b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.program}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>72bf4fc983cd061076389630ceaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b83c1ae2-e106-41a1-9ae6-7b12a2550aa8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 18:33:06</sys_created_on>
+        <sys_id>74cd37c583c1461076389630ceaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 18:33:06</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c418d94a-e543-40b9-9785-9a4143701419</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.address}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>76bf4fc983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>128c0280-ae55-48b5-9c28-fe363a87f0aa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>7abf4fc983cd061076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06bb6e2f-dfaf-4549-a5c7-1715a04c0040</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:50:26</sys_created_on>
+        <sys_id>7da6c42983c5861076389630ceaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:50:26</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8616452d-06ce-41ce-8c6a-30cd2b05e9c2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>7fd29f018301461076389630ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d647ef97-8ad5-4417-a24f-ab59f091e20d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:37:24</sys_created_on>
+        <sys_id>826150258349861076389630ceaad3d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 14:37:24</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>50b7def8-1777-45f7-ae9e-2761914d5098</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 12:56:04</sys_created_on>
+        <sys_id>8bc3c9bd83410a1076389630ceaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 12:56:04</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>89f4d208-75d7-430c-8994-52918ba46c6d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:11:50</sys_created_on>
+        <sys_id>8cc47465830d861076389630ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:11:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3bc1e651-dec0-4355-b1e1-5f7eb10e56f3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 19:00:42</sys_created_on>
+        <sys_id>8d1448dd83c1461076389630ceaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 19:00:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>031f4ce3-67f5-4b46-8428-b99c76db97d1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 15:49:18</sys_created_on>
+        <sys_id>8fd1e8e98389861076389630ceaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 15:49:18</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5018eea4-3dc1-4430-8cb0-b62ec48c0aed</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{81988f45-1b21-48a0-b4e9-859831cca796.item.user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:32</sys_created_on>
+        <sys_id>947554bd830dc61076389630ceaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5af21e2d-4471-4531-a69a-b43198e35a27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.program}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:32</sys_created_on>
+        <sys_id>947554bd830dc61076389630ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>195a6df0-6a8f-48ab-924e-57f399af35e6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:23</sys_created_on>
+        <sys_id>97a7883583c9c61076389630ceaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>438495a4-538a-448c-a418-bb2287df6218</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:40:50</sys_created_on>
+        <sys_id>9974c42583c5861076389630ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:40:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>7521a891-3115-409e-b7a1-2282c7916a9a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:17:50</sys_created_on>
+        <sys_id>9ad1d0f5830dc61076389630ceaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:17:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5a4c4bd8-1e39-44f1-b4c3-e9eee3e089d6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.email}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>a6bf4fc983cd061076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6f59a3bd-159a-4149-9627-296dbf42c300</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:03:34</sys_created_on>
+        <sys_id>a99e4471830dc61076389630ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:03:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c1a07da2-cc73-4477-84ef-9befc2906e56</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>ab13b4e1830d861076389630ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>0cfda2d8-a11d-40d4-8697-d8e4a2171582</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>af13b4e1830d861076389630ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f975e239-0210-4655-adf3-052c316c10c7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.gender}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>b2bf4fc983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>af336807-03fa-4317-886a-d76d3154c55b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:57:44</sys_created_on>
+        <sys_id>bb065ca98349861076389630ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 14:57:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b87e7278-dae6-4431-b273-9f2dc7b02d36</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>bbd29f018301461076389630ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>45a61b74-d7ca-465a-a117-c7803b130247</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.education_level}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>bebf4fc983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>08fc1431-ad56-4ed0-959d-3f47455ad8f6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{20371d27-ef45-43a9-b00a-7a0a9bf5462b.record.user_password}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 17:31:57</sys_created_on>
+        <sys_id>c9cfe7c58381461076389630ceaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 17:31:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8321f401-142a-4dbb-9ff4-fe0bc0a712f6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:25:03</sys_created_on>
+        <sys_id>ced084ad8385861076389630ceaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:25:03</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f5a508a4-7ad8-490e-bce1-67aab5080026</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:33:32</sys_created_on>
+        <sys_id>d07554bd830dc61076389630ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:33:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>efbb565c-9af3-413a-8145-4ec23f0bdd69</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{6756458c-e1d4-4ddc-9b4f-8c9c04d3ac72.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 13:40:50</sys_created_on>
+        <sys_id>d174c42583c5861076389630ceaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 13:40:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bf990116-8709-4f7a-bd64-e6f8ca941c23</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.last_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:17:50</sys_created_on>
+        <sys_id>d2d1d0f5830dc61076389630ceaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:17:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6833c464-f897-46cf-9ab0-ed4dfcbc1ab6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 08:33:23</sys_created_on>
+        <sys_id>dfa7883583c9c61076389630ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 08:33:23</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b43938c2-4e16-4bb2-92a8-76eb8d0824d0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>e2bf4fc983cd061076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ece93694-1614-41a3-bcb2-82054d82ddf6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:03:34</sys_created_on>
+        <sys_id>e59e4471830dc61076389630ceaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 09:03:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d99ce7ed-b35c-4a24-bfba-3b617691bc43</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>e713b4e1830d861076389630ceaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ca586434-a234-47a5-8ad6-5dc46e7f4db2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>eabf4fc983cd061076389630ceaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0a9f8ab-8ce5-4a06-802e-39a165e820f7</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 17:04:42</sys_created_on>
+        <sys_id>eb13b4e1830d861076389630ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:04:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>459b628d-57fb-444a-9399-bce807358c45</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 16:55:42</sys_created_on>
+        <sys_id>ef013821830d861076389630ceaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 16:55:42</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>a5113550-bfde-4a29-bb68-2d451d0f36e9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{5ef2c27d-2049-485e-86ea-be76e36417d4.variable1}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:57:44</sys_created_on>
+        <sys_id>f3065ca98349861076389630ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 14:57:44</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>213d3408-7cad-4518-8a68-f2624c354052</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>f7d29f018301461076389630ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f4434e2c-b2d8-4f44-a7a1-c230ca7a1811</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.citizenship}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>fabf4fc983cd061076389630ceaad320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>5ca57b3b-9f98-4b9d-873c-955a11c7526e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.date_of_birth}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:11:59</sys_created_on>
+        <sys_id>febf4fc983cd061076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:11:59</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>dcd4fb6a-499a-4251-ab4f-afe3da2fc526</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>ac3ee6cd830d061076389630ceaad35c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{81988f45-1b21-48a0-b4e9-859831cca796.item.user.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 15:25:43</sys_created_on>
+        <sys_id>ffd29f018301461076389630ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 15:25:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9f825a04-f60a-4f38-a906-31fac5a6efd3</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c^sys_idNOT IN5144f2c5834d061076389630ceaad3ee,d544f2c5834d061076389630ceaad3f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:00</sys_created_on>
+        <sys_id>5144f2c5834d061076389630ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 13:12:00</sys_created_on>
+        <sys_id>d544f2c5834d061076389630ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 13:12:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ac3ee6cd830d061076389630ceaad35c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ac3ee6cd830d061076389630ceaad35c"/>
+</record_update>

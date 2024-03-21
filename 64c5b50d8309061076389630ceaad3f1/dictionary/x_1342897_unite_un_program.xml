@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a02feb158345861076389630ceaad32d" label="Program" max_length="40" name="x_1342897_unite_un_program" type="collection">
+        <element label="Description" max_length="500" name="description" type="string"/>
+        <element choice="3" label="Education Level" max_length="40" name="education_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Bachelor" value="bachelor"/>
+                <element inactive_on_update="false" label="Doctorate" value="Doctorate"/>
+                <element inactive_on_update="false" label="Master" value="master"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="50" name="name" type="string"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Teacher" mandatory="true" max_length="32" name="teacher" reference="sys_user" reference_qual="roles=ccf5b50d8309061076389630ceaad3fd^EQ" reference_qual_condition="roles=ccf5b50d8309061076389630ceaad3fd^EQ" type="reference"/>
+        <index name="index">
+            <element name="teacher"/>
+        </index>
+    </element>
+</database>
