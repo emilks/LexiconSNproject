@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css> body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+          hr {
+            border-color: black;
+             opacity: 0.2;
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow-x: auto; /* Add horizontal scroll if necessary */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #333;
+        }
+        td {
+            color: #666;
+        }
+        td.empty {
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        /* Responsive table styling */
+        @media screen and (max-width: 600px) {
+            table {
+                border: 1px solid #ccc;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>student_s_program</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Student's Program</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	var applicantRec = new GlideRecord('x_1342897_unite_un_applicant');
+	applicantRec.get('email', gs.getUser().email);
+	
+	var programRec= new GlideRecord('x_1342897_unite_un_program');
+	data.programExists = programRec.get('name', applicantRec.getDisplayValue('program_ref'));
+	
+	data.progName = programRec.getDisplayValue('name');
+	data.progTeacher = programRec.getDisplayValue('teacher');
+	data.progDesc = programRec.getDisplayValue('description');
+	data.progStart = programRec.getDisplayValue('start_date');
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 15:43:45</sys_created_on>
+        <sys_id>95c33e0a83cd4a1076389630ceaad3cf</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>Student's Program</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_widget_95c33e0a83cd4a1076389630ceaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-26 09:16:04</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{::options.color}} b">
+  <div class="panel-heading">
+    <h3 class="h4 panel-title">
+      ${My Program}
+      
+    </h3>
+  </div>
+  
+  <div class="panel-body" ng-class="{'padder-b-none'}">
+		
+    <div ng-if="!data.programExists" class="panel panel-default">
+      <div class="panel-body wrapper-lg text-center">
+        <p>${Requested program not found}</p>
+      </div>
+  	</div>
+    
+  	<div ng-if="data.programExists">    
+      <h3>
+        {{data.progName}}
+      </h3>
+      
+      <p style="text-align:left;" class="text-muted">
+    		Taught by: {{data.progTeacher}}
+    		<span style="float:right;">
+        	Start date: {{data.progStart}}
+    		</span>
+			</p>
+      
+      <div>
+        {{data.progDesc}}
+      </div>
+    
+  </div> 
+  
+	<div class="panel-footer clearfix" ng-if="data.pagination.showPagination">
+    <a id="previous-btn" href="javascript:void(0)" ng-click="previousPage()" ng-show="data.pagination.hasPrevious" class="pull-left btn btn-sm btn-default" aria-label="${Pagination button Previous}">
+      <i class="fa fa-arrow-left m-r-sm" aria-hidden="true"></i>${Previous}</a>
+    <a id="next_btn" href="javascript:void(0)" ng-click="nextPage()" ng-show="data.pagination.hasNext" class="pull-right btn btn-sm btn-default " aria-label="${Pagination button Next}">
+      ${Next}<i class="fa fa-arrow-right m-r-sm col-md-offset-3" aria-hidden="true"></i></a>
+</div>
+    <hr>
+    <div class="container">
+    <h1>{{data.progName}} Schedule</h1>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>9:00 AM - 10:30 AM</td>
+            <td>Computer Architecture</td>
+            <td class="empty"></td>
+            <td>Data Structures and Algorithms</td>
+            <td>Software Engineering</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td>10:45 AM - 12:15 PM</td>
+            <td class="empty"></td>
+            <td>Database Management Systems</td>
+            <td class="empty"></td>
+            <td>Computer Networks</td>
+            <td class="empty"></td>
+        </tr>
+        <tr>
+            <td>12:30 PM - 2:00 PM</td>
+            <td class="empty" colspan="5">Lunch Break</td>
+        </tr>
+        <tr>
+            <td>2:00 PM - 3:30 PM</td>
+            <td class="empty"></td>
+            <td>Operating Systems</td>
+            <td>Web Development</td>
+            <td class="empty"></td>
+            <td>Computer Graphics</td>
+        </tr>
+    </table>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

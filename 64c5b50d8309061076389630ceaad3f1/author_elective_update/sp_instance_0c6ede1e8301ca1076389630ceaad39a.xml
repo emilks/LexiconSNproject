@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6a5e9e1e8301ca1076389630ceaad377</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:48:45</sys_created_on>
+        <sys_id>0c6ede1e8301ca1076389630ceaad39a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_0c6ede1e8301ca1076389630ceaad39a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:50:51</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<style>\r\n    body {\r\n      font-family: Arial, sans-serif;\r\n      margin: 0;\r\n      padding: 0;\r\n      background-color: #f9f9f9;\r\n      color: #333;\r\n    }\r\n    .container {\r\n      max-width: 600px;\r\n      margin: 20px auto;\r\n      padding: 20px;\r\n      background-color: #fff;\r\n      border-radius: 5px;\r\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\r\n    }\r\n    h1, p {\r\n      margin-bottom: 20px;\r\n    }\r\n  </style>\r\n<div class=\"container\">\r\n<h1>Thank You for Applying to Unite University!</h1>\r\n<p>Dear [Applicant's Name],</p>\r\n<p>We extend our heartfelt appreciation for choosing Unite University as your destination for higher education. Your decision to apply demonstrates your commitment to academic excellence and personal growth, qualities that align perfectly with our university's mission.</p>\r\n<p>At Unite University, we strive to create an environment that fosters intellectual curiosity, creativity, and inclusivity. Your application reflects your aspirations and goals, and we are eager to embark on this journey with you.</p>\r\n<p>Our dedicated admissions team will thoroughly review your application, considering your achievements, experiences, and potential contributions to our vibrant academic community. While we understand the anticipation that comes with awaiting a decision, please rest assured that we are diligently working to provide you with a comprehensive evaluation.</p>\r\n<p>We encourage you to explore the various opportunities available at Unite University, from our diverse range of programs to our extracurricular activities and support services. Our goal is to empower you to thrive academically, personally, and professionally during your time with us.</p>\r\n<p>Once again, thank you for entrusting us with your educational aspirations. We are honored to have you as part of our applicant pool and look forward to the possibility of welcoming you to the Unite University family.</p>\r\n<p>Should you have any questions or require further assistance throughout the admissions process, please do not hesitate to contact us.</p>\r\n<p>Best regards,<br />[Your Name]<br />Admissions Office<br />Unite University</p>\r\n</div>",
+		"displayValue": "<p>&nbsp;</p>\n<style>\n    body {\n      font-family: Arial, sans-serif;\n      margin: 0;\n      padding: 0;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n    .container {\n      max-width: 600px;\n      margin: 20px auto;\n      padding: 20px;\n      background-color: #fff;\n      border-radius: 5px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    h1, p {\n      margin-bottom: 20px;\n    }\n  </style>\n<div class=\"container\">\n<h1>Thank You for Applying to Unite University!</h1>\n<p>Dear [Applicant's Name],</p>\n<p>We extend our heartfelt appreciation for choosing Unite University as your destination for higher education. Your decision to apply demonstrates your commitment to academic excellence and personal growth, qualities that align perfectly with our university's mission.</p>\n<p>At Unite University, we strive to create an environment that fosters intellectual curiosity, creativity, and inclusivity. Your application reflects your aspirations and goals, and we are eager to embark on this journey with you.</p>\n<p>Our dedicated admissions team will thoroughly review your application, considering your achievements, experiences, and potential contributions to our vibrant academic community. While we understand the anticipation that comes with awaiting a decision, please rest assured that we are diligently working to provide you with a comprehensive evaluation.</p>\n<p>We encourage you to explore the various opportunities available at Unite University, from our diverse range of programs to our extracurricular activities and support services. Our goal is to empower you to thrive academically, personally, and professionally during your time with us.</p>\n<p>Once again, thank you for entrusting us with your educational aspirations. We are honored to have you as part of our applicant pool and look forward to the possibility of welcoming you to the Unite University family.</p>\n<p>Should you have any questions or require further assistance throughout the admissions process, please do not hesitate to contact us.</p>\n<p>Best regards,<br />[Your Name]<br />Admissions Office<br />Unite University</p>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0c6ede1e8301ca1076389630ceaad39a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_0c6ede1e8301ca1076389630ceaad39a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6a5e9e1e8301ca1076389630ceaad377&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 08:48:45&lt;/sys_created_on&gt;&lt;sys_id&gt;0c6ede1e8301ca1076389630ceaad39a&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_0c6ede1e8301ca1076389630ceaad39a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-22 08:50:51&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;style&gt;\r\n    body {\r\n      font-family: Arial, sans-serif;\r\n      margin: 0;\r\n      padding: 0;\r\n      background-color: #f9f9f9;\r\n      color: #333;\r\n    }\r\n    .container {\r\n      max-width: 600px;\r\n      margin: 20px auto;\r\n      padding: 20px;\r\n      background-color: #fff;\r\n      border-radius: 5px;\r\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\r\n    }\r\n    h1, p {\r\n      margin-bottom: 20px;\r\n    }\r\n  &lt;/style&gt;\r\n&lt;div class=\"container\"&gt;\r\n&lt;h1&gt;Thank You for Applying to Unite University!&lt;/h1&gt;\r\n&lt;p&gt;Dear [Applicant's Name],&lt;/p&gt;\r\n&lt;p&gt;We extend our heartfelt appreciation for choosing Unite University as your destination for higher education. Your decision to apply demonstrates your commitment to academic excellence and personal growth, qualities that align perfectly with our university's mission.&lt;/p&gt;\r\n&lt;p&gt;At Unite University, we strive to create an environment that fosters intellectual curiosity, creativity, and inclusivity. Your application reflects your aspirations and goals, and we are eager to embark on this journey with you.&lt;/p&gt;\r\n&lt;p&gt;Our dedicated admissions team will thoroughly review your application, considering your achievements, experiences, and potential contributions to our vibrant academic community. While we understand the anticipation that comes with awaiting a decision, please rest assured that we are diligently working to provide you with a comprehensive evaluation.&lt;/p&gt;\r\n&lt;p&gt;We encourage you to explore the various opportunities available at Unite University, from our diverse range of programs to our extracurricular activities and support services. Our goal is to empower you to thrive academically, personally, and professionally during your time with us.&lt;/p&gt;\r\n&lt;p&gt;Once again, thank you for entrusting us with your educational aspirations. We are honored to have you as part of our applicant pool and look forward to the possibility of welcoming you to the Unite University family.&lt;/p&gt;\r\n&lt;p&gt;Should you have any questions or require further assistance throughout the admissions process, please do not hesitate to contact us.&lt;/p&gt;\r\n&lt;p&gt;Best regards,&lt;br /&gt;[Your Name]&lt;br /&gt;Admissions Office&lt;br /&gt;Unite University&lt;/p&gt;\r\n&lt;/div&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;style&gt;\n    body {\n      font-family: Arial, sans-serif;\n      margin: 0;\n      padding: 0;\n      background-color: #f9f9f9;\n      color: #333;\n    }\n    .container {\n      max-width: 600px;\n      margin: 20px auto;\n      padding: 20px;\n      background-color: #fff;\n      border-radius: 5px;\n      box-shadow: 0 2px 5px rgba(0,0,0,0.1);\n    }\n    h1, p {\n      margin-bottom: 20px;\n    }\n  &lt;/style&gt;\n&lt;div class=\"container\"&gt;\n&lt;h1&gt;Thank You for Applying to Unite University!&lt;/h1&gt;\n&lt;p&gt;Dear [Applicant's Name],&lt;/p&gt;\n&lt;p&gt;We extend our heartfelt appreciation for choosing Unite University as your destination for higher education. Your decision to apply demonstrates your commitment to academic excellence and personal growth, qualities that align perfectly with our university's mission.&lt;/p&gt;\n&lt;p&gt;At Unite University, we strive to create an environment that fosters intellectual curiosity, creativity, and inclusivity. Your application reflects your aspirations and goals, and we are eager to embark on this journey with you.&lt;/p&gt;\n&lt;p&gt;Our dedicated admissions team will thoroughly review your application, considering your achievements, experiences, and potential contributions to our vibrant academic community. While we understand the anticipation that comes with awaiting a decision, please rest assured that we are diligently working to provide you with a comprehensive evaluation.&lt;/p&gt;\n&lt;p&gt;We encourage you to explore the various opportunities available at Unite University, from our diverse range of programs to our extracurricular activities and support services. Our goal is to empower you to thrive academically, personally, and professionally during your time with us.&lt;/p&gt;\n&lt;p&gt;Once again, thank you for entrusting us with your educational aspirations. We are honored to have you as part of our applicant pool and look forward to the possibility of welcoming you to the Unite University family.&lt;/p&gt;\n&lt;p&gt;Should you have any questions or require further assistance throughout the admissions process, please do not hesitate to contact us.&lt;/p&gt;\n&lt;p&gt;Best regards,&lt;br /&gt;[Your Name]&lt;br /&gt;Admissions Office&lt;br /&gt;Unite University&lt;/p&gt;\n&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0c6ede1e8301ca1076389630ceaad39a"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1657492244</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:50:52</sys_created_on>
+        <sys_id>3ade965e8301ca1076389630ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e655b16600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:50:52</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>fede965e0c01ca10c6a15aca045d757a</update_guid>
+        <update_guid_history>fede965e0c01ca10c6a15aca045d757a:1657492244,cd8e125eaf01ca1093fc6a88f8122438:-1804733710,806e525ec101ca10b59ab97121008243:858575908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">283f929e8301ca1076389630ceaad380</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:52:20</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2419882ebd6b4eb1a072c477766e7f91</sys_id>
+        <sys_metadata>0c6ede1e8301ca1076389630ceaad39a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_0c6ede1e8301ca1076389630ceaad39a</sys_update_name>
+        <sys_update_version display_value="sp_instance_0c6ede1e8301ca1076389630ceaad39a">3ade965e8301ca1076389630ceaad37b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:52:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

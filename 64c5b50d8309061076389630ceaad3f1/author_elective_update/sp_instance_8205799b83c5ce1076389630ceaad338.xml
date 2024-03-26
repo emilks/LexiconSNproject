@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles>x_1342897_unite_un.manager</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">0e05799b83c5ce1076389630ceaad335</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:22:03</sys_created_on>
+        <sys_id>8205799b83c5ce1076389630ceaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_8205799b83c5ce1076389630ceaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:22:03</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"portal": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=8205799b83c5ce1076389630ceaad338"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_8205799b83c5ce1076389630ceaad338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles&gt;x_1342897_unite_un.manager&lt;/roles&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;0e05799b83c5ce1076389630ceaad335&lt;/sp_column&gt;&lt;sp_widget display_value="Approvals"&gt;f37aa302cb70020000f8d856634c9cfc&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-25 08:22:03&lt;/sys_created_on&gt;&lt;sys_id&gt;8205799b83c5ce1076389630ceaad338&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_8205799b83c5ce1076389630ceaad338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-25 08:22:03&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"portal": {
+		"value": "",
+		"displayValue": ""
+	},
+	"max_number_of_elements_shown_on_the_list": {
+		"value": null,
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8205799b83c5ce1076389630ceaad338"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-992484536</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:22:03</sys_created_on>
+        <sys_id>0e05799b83c5ce1076389630ceaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74b3c9980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:22:03</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>4205799b1fc5ce10427cf8e81dcc6346</update_guid>
+        <update_guid_history>4205799b1fc5ce10427cf8e81dcc6346:-992484536</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b847719f83c5ce1076389630ceaad36c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:31:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>124a8457cc8140b98192c9b9fe13e1b9</sys_id>
+        <sys_metadata>8205799b83c5ce1076389630ceaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_8205799b83c5ce1076389630ceaad338</sys_update_name>
+        <sys_update_version display_value="sp_instance_8205799b83c5ce1076389630ceaad338">0e05799b83c5ce1076389630ceaad346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:31:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

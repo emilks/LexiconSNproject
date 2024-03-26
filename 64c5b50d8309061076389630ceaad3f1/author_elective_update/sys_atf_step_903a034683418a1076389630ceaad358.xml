@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+State is anything
+and Recipients is anything
+and User ID is anything
+and Subject contains Student Application Review Request
+and Body is anything
+and Headers is anything
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:22:16</sys_created_on>
+        <sys_id>903a034683418a1076389630ceaad358</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_atf_step_903a034683418a1076389630ceaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:26:23</sys_updated_on>
+        <table/>
+        <test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=903a034683418a1076389630ceaad358"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>903a034683418a1076389630ceaad358</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:22:16</sys_created_on>
+        <sys_id>185a034683418a1076389630ceaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:22:16</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>903a034683418a1076389630ceaad358</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:22:16</sys_created_on>
+        <sys_id>505a034683418a1076389630ceaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:22:16</sys_updated_on>
+        <value>stateANYTHING^recipientsANYTHING^user_idANYTHING^subjectLIKEStudent Application Review Request^bodyANYTHING^headersANYTHING^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=903a034683418a1076389630ceaad358"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_atf_step_903a034683418a1076389630ceaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Validate that an email was generated matching query:
+State is anything
+and Recipients is anything
+and User ID is anything
+and Subject contains Student Application Review Request
+and Body is anything
+and Headers is anything
+With a failure timeout of 30 Seconds</description><display_name>Validate Outbound Email</display_name><inputs/><mugshots_cache_json/><notes/><order>6</order><step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 17:22:16</sys_created_on><sys_id>903a034683418a1076389630ceaad358</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Validate Outbound Email</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sys_atf_step_903a034683418a1076389630ceaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 17:26:23</sys_updated_on><table/><test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test><timeout>1970-01-01 00:00:30</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=903a034683418a1076389630ceaad358"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>903a034683418a1076389630ceaad358</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 17:22:16</sys_created_on><sys_id>185a034683418a1076389630ceaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 17:22:16</sys_updated_on><value>sys_email</value><variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>903a034683418a1076389630ceaad358</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 17:22:16</sys_created_on><sys_id>505a034683418a1076389630ceaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 17:22:16</sys_updated_on><value>stateANYTHING^recipientsANYTHING^user_idANYTHING^subjectLIKEStudent Application Review Request^bodyANYTHING^headersANYTHING^EQ</value><variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=903a034683418a1076389630ceaad358"/></record_update>]]></payload>
+        <payload_hash>1686727744</payload_hash>
+        <record_name>Validate Outbound Email</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:26:23</sys_created_on>
+        <sys_id>a84bc38683418a1076389630ceaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e620cb3570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:26:23</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>204bc38621418a10d8852d04d01a0748</update_guid>
+        <update_guid_history>204bc38621418a10d8852d04d01a0748:1686727744,545a0b46f5418a10e9c04405f6628af1:-400836703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 17:26:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>2640ac4472f44ef898173154c92c4b99</sys_id>
+        <sys_metadata>903a034683418a1076389630ceaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_atf_step_903a034683418a1076389630ceaad358</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_903a034683418a1076389630ceaad358">a84bc38683418a1076389630ceaad348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 17:26:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

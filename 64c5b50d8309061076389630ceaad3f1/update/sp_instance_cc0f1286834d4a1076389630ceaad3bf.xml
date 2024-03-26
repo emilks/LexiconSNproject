@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles>x_1342897_unite_un.manager,x_1342897_unite_un.student,x_1342897_unite_un.user</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">afddcb1d8381861076389630ceaad39e</sp_column>
+        <sp_widget display_value="Welcome Name">32171e0a830d4a1076389630ceaad3e8</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:13:00</sys_created_on>
+        <sys_id>cc0f1286834d4a1076389630ceaad3bf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_cc0f1286834d4a1076389630ceaad3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 16:06:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc0f1286834d4a1076389630ceaad3bf"/>
+</record_update>

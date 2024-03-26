@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a5a3b51b83c5ce1076389630ceaad3c6</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:16:00</sys_created_on>
+        <sys_id>eda3b51b83c5ce1076389630ceaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_eda3b51b83c5ce1076389630ceaad3e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:16:00</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1 style=\"text-align: center;\"><strong>Welcome to Unite University<br /></strong></h1>\r\n<h3 style=\"text-align: center;\">Your way to success</h3>",
+		"displayValue": "<h1 style=\"text-align: center;\"><strong>Welcome to Unite University<br /></strong></h1>\n<h3 style=\"text-align: center;\">Your way to success</h3>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=eda3b51b83c5ce1076389630ceaad3e1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_eda3b51b83c5ce1076389630ceaad3e1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;a5a3b51b83c5ce1076389630ceaad3c6&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-25 08:16:00&lt;/sys_created_on&gt;&lt;sys_id&gt;eda3b51b83c5ce1076389630ceaad3e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_eda3b51b83c5ce1076389630ceaad3e1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-25 08:16:00&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;h1 style=\"text-align: center;\"&gt;&lt;strong&gt;Welcome to Unite University&lt;br /&gt;&lt;/strong&gt;&lt;/h1&gt;\r\n&lt;h3 style=\"text-align: center;\"&gt;Your way to success&lt;/h3&gt;",
+		"displayValue": "&lt;h1 style=\"text-align: center;\"&gt;&lt;strong&gt;Welcome to Unite University&lt;br /&gt;&lt;/strong&gt;&lt;/h1&gt;\n&lt;h3 style=\"text-align: center;\"&gt;Your way to success&lt;/h3&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=eda3b51b83c5ce1076389630ceaad3e1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>596008321</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:16:00</sys_created_on>
+        <sys_id>e1a3b51b83c5ce1076389630ceaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74ae3fdf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:16:00</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>29a3b51b9fc5ce10faee5105385f74e3</update_guid>
+        <update_guid_history>29a3b51b9fc5ce10faee5105385f74e3:596008321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">10f4759b83c5ce1076389630ceaad3f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:21:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>087701c517354ea0804fc067a20ca601</sys_id>
+        <sys_metadata>eda3b51b83c5ce1076389630ceaad3e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_eda3b51b83c5ce1076389630ceaad3e1</sys_update_name>
+        <sys_update_version display_value="sp_instance_eda3b51b83c5ce1076389630ceaad3e1">e1a3b51b83c5ce1076389630ceaad3e4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:21:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

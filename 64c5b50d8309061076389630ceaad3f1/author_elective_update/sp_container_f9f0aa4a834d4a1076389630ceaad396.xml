@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>cover</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Unite University Landing - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="unite_landing">65f0aa4a834d4a1076389630ceaad393</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:21:35</sys_created_on>
+        <sys_id>f9f0aa4a834d4a1076389630ceaad396</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Unite University Landing - Container 1</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_container_f9f0aa4a834d4a1076389630ceaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:30:25</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_container_f9f0aa4a834d4a1076389630ceaad396</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>cover</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Unite University Landing - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="unite_landing">65f0aa4a834d4a1076389630ceaad393</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:21:35</sys_created_on><sys_id>f9f0aa4a834d4a1076389630ceaad396</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Unite University Landing - Container 1</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sp_container_f9f0aa4a834d4a1076389630ceaad396</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 16:30:25</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-87285177</payload_hash>
+        <record_name>Unite University Landing - Container 1</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 16:30:25</sys_created_on>
+        <sys_id>017e76c683018a1076389630ceaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e61d9787f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 16:30:25</sys_updated_on>
+        <type>Container</type>
+        <update_guid>c57e76c6f1018a10cef87d356fcd0c6d</update_guid>
+        <update_guid_history>c57e76c6f1018a10cef87d356fcd0c6d:-87285177,ec7e328657018a104733fd52f71f332f:971615800,bd6e36c6c7018a10db83548289eb5f35:213901834,58dc6a0eb28d4a104900e826008a2672:-1328704420,1c63264e274d4a10cc300e0441f5a58d:460683282,c063224e414d4a107ca6b88c1e36e1bd:-733093715,bb02ee8aa54d4a1053b26cb17c0e08dd:-417648769,79f0aa4ade4d4a102d5b58a8b9b2b398:1227012193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Unite University Landing - Container 1">d3ee6a928381ca1076389630ceaad379</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:01:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>8247e1d3574e4e80a1c14120e79a50d1</sys_id>
+        <sys_metadata>f9f0aa4a834d4a1076389630ceaad396</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unite University Landing - Container 1</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_container_f9f0aa4a834d4a1076389630ceaad396</sys_update_name>
+        <sys_update_version display_value="sp_container_f9f0aa4a834d4a1076389630ceaad396">017e76c683018a1076389630ceaad36e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:01:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

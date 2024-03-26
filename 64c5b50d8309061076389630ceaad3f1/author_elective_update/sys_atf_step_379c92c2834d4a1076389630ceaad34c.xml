@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open Unite University Home page in the Unite University portal</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:02:58</sys_created_on>
+        <sys_id>379c92c2834d4a1076389630ceaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_atf_step_379c92c2834d4a1076389630ceaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:02:58</sys_updated_on>
+        <table/>
+        <test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=379c92c2834d4a1076389630ceaad34c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>379c92c2834d4a1076389630ceaad34c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:02:58</sys_created_on>
+        <sys_id>45bc96c2834d4a1076389630ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:02:58</sys_updated_on>
+        <value>d2f042498349061076389630ceaad345</value>
+        <variable display_value="Portal">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>379c92c2834d4a1076389630ceaad34c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:02:58</sys_created_on>
+        <sys_id>81bc96c2834d4a1076389630ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:02:58</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>379c92c2834d4a1076389630ceaad34c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:02:58</sys_created_on>
+        <sys_id>cdbc96c2834d4a1076389630ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:02:58</sys_updated_on>
+        <value>35b41bc18301461076389630ceaad3b4</value>
+        <variable display_value="Page">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106^id=379c92c2834d4a1076389630ceaad34c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_atf_step_379c92c2834d4a1076389630ceaad34c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open Unite University Home page in the Unite University portal</description><display_name>Open Service Portal Page</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:02:58</sys_created_on><sys_id>379c92c2834d4a1076389630ceaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open Service Portal Page</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sys_atf_step_379c92c2834d4a1076389630ceaad34c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:02:58</sys_updated_on><table/><test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=379c92c2834d4a1076389630ceaad34c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>379c92c2834d4a1076389630ceaad34c</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:02:58</sys_created_on><sys_id>45bc96c2834d4a1076389630ceaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:02:58</sys_updated_on><value>d2f042498349061076389630ceaad345</value><variable display_value="Portal">5a7e65d577332300e46abe41a91061cb</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>379c92c2834d4a1076389630ceaad34c</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:02:58</sys_created_on><sys_id>81bc96c2834d4a1076389630ceaad37e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:02:58</sys_updated_on><value/><variable display_value="Query parameters">839e29d577332300e46abe41a9106134</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>379c92c2834d4a1076389630ceaad34c</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:02:58</sys_created_on><sys_id>cdbc96c2834d4a1076389630ceaad37d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:02:58</sys_updated_on><value>35b41bc18301461076389630ceaad3b4</value><variable display_value="Page">ca8ea5d577332300e46abe41a91061b6</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106^id=379c92c2834d4a1076389630ceaad34c"/></record_update>]]></payload>
+        <payload_hash>1270675310</payload_hash>
+        <record_name>Open Service Portal Page</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:02:58</sys_created_on>
+        <sys_id>8dbc96c2834d4a1076389630ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e615279e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:02:58</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>c1bc96c2054d4a10425513e1fa9dac80</update_guid>
+        <update_guid_history>c1bc96c2054d4a10425513e1fa9dac80:1270675310</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 15:02:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>2baf101e5b104013a72c3ecf4dc31411</sys_id>
+        <sys_metadata>379c92c2834d4a1076389630ceaad34c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_atf_step_379c92c2834d4a1076389630ceaad34c</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_379c92c2834d4a1076389630ceaad34c">8dbc96c2834d4a1076389630ceaad380</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 15:02:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

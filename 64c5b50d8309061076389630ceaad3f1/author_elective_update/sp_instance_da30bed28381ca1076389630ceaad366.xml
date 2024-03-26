@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6a5e9e1e8301ca1076389630ceaad377</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:06:44</sys_created_on>
+        <sys_id>da30bed28381ca1076389630ceaad366</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_da30bed28381ca1076389630ceaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:10:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<style>\r\n        p {\r\n            font-size: 16px; /* Adjust the font size as needed */\r\n        }\r\n    </style>\r\n<h1 style=\"text-align: center;\">Thank You for Applying to Unite University</h1>\r\n<p style=\"text-align: center;\">Your application has been received and is currently under review.</p>\r\n<p style=\"text-align: center;\">We will notify you of any updates regarding your application status via email.<br />Your patience during this process is greatly appreciated.</p>\r\n<p style=\"text-align: center;\">Best regards,</p>\r\n<p style=\"text-align: center;\">John Doe<br />Director of Admissions<br />Unite University</p>",
+		"displayValue": "<style>\n        p {\n            font-size: 16px; /* Adjust the font size as needed */\n        }\n    </style>\n<h1 style=\"text-align: center;\">Thank You for Applying to Unite University</h1>\n<p style=\"text-align: center;\">Your application has been received and is currently under review.</p>\n<p style=\"text-align: center;\">We will notify you of any updates regarding your application status via email.<br />Your patience during this process is greatly appreciated.</p>\n<p style=\"text-align: center;\">Best regards,</p>\n<p style=\"text-align: center;\">John Doe<br />Director of Admissions<br />Unite University</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=da30bed28381ca1076389630ceaad366"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_da30bed28381ca1076389630ceaad366</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6a5e9e1e8301ca1076389630ceaad377&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 10:06:44&lt;/sys_created_on&gt;&lt;sys_id&gt;da30bed28381ca1076389630ceaad366&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_da30bed28381ca1076389630ceaad366&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-22 10:10:31&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;style&gt;\r\n        p {\r\n            font-size: 16px; /* Adjust the font size as needed */\r\n        }\r\n    &lt;/style&gt;\r\n&lt;h1 style=\"text-align: center;\"&gt;Thank You for Applying to Unite University&lt;/h1&gt;\r\n&lt;p style=\"text-align: center;\"&gt;Your application has been received and is currently under review.&lt;/p&gt;\r\n&lt;p style=\"text-align: center;\"&gt;We will notify you of any updates regarding your application status via email.&lt;br /&gt;Your patience during this process is greatly appreciated.&lt;/p&gt;\r\n&lt;p style=\"text-align: center;\"&gt;Best regards,&lt;/p&gt;\r\n&lt;p style=\"text-align: center;\"&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;",
+		"displayValue": "&lt;style&gt;\n        p {\n            font-size: 16px; /* Adjust the font size as needed */\n        }\n    &lt;/style&gt;\n&lt;h1 style=\"text-align: center;\"&gt;Thank You for Applying to Unite University&lt;/h1&gt;\n&lt;p style=\"text-align: center;\"&gt;Your application has been received and is currently under review.&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;We will notify you of any updates regarding your application status via email.&lt;br /&gt;Your patience during this process is greatly appreciated.&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;Best regards,&lt;/p&gt;\n&lt;p style=\"text-align: center;\"&gt;John Doe&lt;br /&gt;Director of Admissions&lt;br /&gt;Unite University&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=da30bed28381ca1076389630ceaad366"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1476907138</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:10:32</sys_created_on>
+        <sys_id>7d1172968381ca1076389630ceaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e65a4069c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:10:32</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>35117296ee81ca10afae06ccf76b574e</update_guid>
+        <update_guid_history>35117296ee81ca10afae06ccf76b574e:1476907138,62f0fe568c81ca10388b9091f22cdf08:1392261832,b8a0f656bf81ca1068989bc30ad35c99:233763346,e040be164781ca10ab4c3cadaeb8621b:2032946654,9630bed28a81ca100010c002cc4ba368:858575908</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e01232d68381ca1076389630ceaad38e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 10:14:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1209488d20754c54b1bae8b8d38af8c4</sys_id>
+        <sys_metadata>da30bed28381ca1076389630ceaad366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_da30bed28381ca1076389630ceaad366</sys_update_name>
+        <sys_update_version display_value="sp_instance_da30bed28381ca1076389630ceaad366">7d1172968381ca1076389630ceaad34e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 10:14:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

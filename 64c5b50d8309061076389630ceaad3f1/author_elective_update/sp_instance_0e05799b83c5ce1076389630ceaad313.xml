@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>&#13;
+</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles>x_1342897_unite_un.student</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c605799b83c5ce1076389630ceaad309</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:22:03</sys_created_on>
+        <sys_id>0e05799b83c5ce1076389630ceaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_0e05799b83c5ce1076389630ceaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:30:53</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<hr />\r\n<h2><em>Campus Facilities</em></h2>\r\n<p><strong>The campus of Unite University is a hub of activity and innovation, equipped with state-of-the-art facilities to support both academic and extracurricular endeavors. From modern lecture halls to well-stocked libraries, research centers, and recreational spaces, the university provides students with the resources they need to excel in their academic pursuits and pursue their passions beyond the classroom.</strong></p>\r\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=a3660c668349ca1076389630ceaad32d\" /></p>\r\n<hr />\r\n<h2><em>Student Life</em></h2>\r\n<p><strong>At Unite University, student life is vibrant and diverse, offering a rich tapestry of experiences beyond academics. From student clubs and organizations to cultural events, sports competitions, and community service initiatives, there is never a dull moment on campus. Students have ample opportunities to forge lifelong friendships, explore new interests, and contribute to the community in meaningful ways.</strong></p>\r\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=bc860c668349ca1076389630ceaad336\" /></p>\r\n<hr />\r\n<h2><em>Residential Life</em></h2>\r\n<p><strong>Many students at Unite University choose to reside on campus, immersing themselves in the vibrant residential community. The university offers comfortable and convenient accommodation options, fostering a supportive living environment where students can thrive academically and socially. Residential life at Unite University is characterized by camaraderie, mutual respect, and a strong sense of belonging.</strong></p>\r\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=caa640a68349ca1076389630ceaad360\" /></p>\r\n<hr />",
+		"displayValue": "<hr />\n<h2><em>Campus Facilities</em></h2>\n<p><strong>The campus of Unite University is a hub of activity and innovation, equipped with state-of-the-art facilities to support both academic and extracurricular endeavors. From modern lecture halls to well-stocked libraries, research centers, and recreational spaces, the university provides students with the resources they need to excel in their academic pursuits and pursue their passions beyond the classroom.</strong></p>\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=a3660c668349ca1076389630ceaad32d\" /></p>\n<hr />\n<h2><em>Student Life</em></h2>\n<p><strong>At Unite University, student life is vibrant and diverse, offering a rich tapestry of experiences beyond academics. From student clubs and organizations to cultural events, sports competitions, and community service initiatives, there is never a dull moment on campus. Students have ample opportunities to forge lifelong friendships, explore new interests, and contribute to the community in meaningful ways.</strong></p>\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=bc860c668349ca1076389630ceaad336\" /></p>\n<hr />\n<h2><em>Residential Life</em></h2>\n<p><strong>Many students at Unite University choose to reside on campus, immersing themselves in the vibrant residential community. The university offers comfortable and convenient accommodation options, fostering a supportive living environment where students can thrive academically and socially. Residential life at Unite University is characterized by camaraderie, mutual respect, and a strong sense of belonging.</strong></p>\n<p><img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=caa640a68349ca1076389630ceaad360\" /></p>\n<hr />"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0e05799b83c5ce1076389630ceaad313"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_0e05799b83c5ce1076389630ceaad313</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;&amp;#13;
+&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles&gt;x_1342897_unite_un.student&lt;/roles&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;c605799b83c5ce1076389630ceaad309&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-25 08:22:03&lt;/sys_created_on&gt;&lt;sys_id&gt;0e05799b83c5ce1076389630ceaad313&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_0e05799b83c5ce1076389630ceaad313&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-25 08:30:53&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;hr /&gt;\r\n&lt;h2&gt;&lt;em&gt;Campus Facilities&lt;/em&gt;&lt;/h2&gt;\r\n&lt;p&gt;&lt;strong&gt;The campus of Unite University is a hub of activity and innovation, equipped with state-of-the-art facilities to support both academic and extracurricular endeavors. From modern lecture halls to well-stocked libraries, research centers, and recreational spaces, the university provides students with the resources they need to excel in their academic pursuits and pursue their passions beyond the classroom.&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=a3660c668349ca1076389630ceaad32d\" /&gt;&lt;/p&gt;\r\n&lt;hr /&gt;\r\n&lt;h2&gt;&lt;em&gt;Student Life&lt;/em&gt;&lt;/h2&gt;\r\n&lt;p&gt;&lt;strong&gt;At Unite University, student life is vibrant and diverse, offering a rich tapestry of experiences beyond academics. From student clubs and organizations to cultural events, sports competitions, and community service initiatives, there is never a dull moment on campus. Students have ample opportunities to forge lifelong friendships, explore new interests, and contribute to the community in meaningful ways.&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=bc860c668349ca1076389630ceaad336\" /&gt;&lt;/p&gt;\r\n&lt;hr /&gt;\r\n&lt;h2&gt;&lt;em&gt;Residential Life&lt;/em&gt;&lt;/h2&gt;\r\n&lt;p&gt;&lt;strong&gt;Many students at Unite University choose to reside on campus, immersing themselves in the vibrant residential community. The university offers comfortable and convenient accommodation options, fostering a supportive living environment where students can thrive academically and socially. Residential life at Unite University is characterized by camaraderie, mutual respect, and a strong sense of belonging.&lt;/strong&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=caa640a68349ca1076389630ceaad360\" /&gt;&lt;/p&gt;\r\n&lt;hr /&gt;",
+		"displayValue": "&lt;hr /&gt;\n&lt;h2&gt;&lt;em&gt;Campus Facilities&lt;/em&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;The campus of Unite University is a hub of activity and innovation, equipped with state-of-the-art facilities to support both academic and extracurricular endeavors. From modern lecture halls to well-stocked libraries, research centers, and recreational spaces, the university provides students with the resources they need to excel in their academic pursuits and pursue their passions beyond the classroom.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=a3660c668349ca1076389630ceaad32d\" /&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;&lt;em&gt;Student Life&lt;/em&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;At Unite University, student life is vibrant and diverse, offering a rich tapestry of experiences beyond academics. From student clubs and organizations to cultural events, sports competitions, and community service initiatives, there is never a dull moment on campus. Students have ample opportunities to forge lifelong friendships, explore new interests, and contribute to the community in meaningful ways.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=bc860c668349ca1076389630ceaad336\" /&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;&lt;em&gt;Residential Life&lt;/em&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Many students at Unite University choose to reside on campus, immersing themselves in the vibrant residential community. The university offers comfortable and convenient accommodation options, fostering a supportive living environment where students can thrive academically and socially. Residential life at Unite University is characterized by camaraderie, mutual respect, and a strong sense of belonging.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;img style=\"max-width: 100%; max-height: 480px; border-radius: 50%; border: 4px solid #F19235;\" src=\"/sys_attachment.do?sys_id=caa640a68349ca1076389630ceaad360\" /&gt;&lt;/p&gt;\n&lt;hr /&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0e05799b83c5ce1076389630ceaad313"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>563578392</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:30:53</sys_created_on>
+        <sys_id>df07795f83c5ce1076389630ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74bbdefc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:30:53</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9707795f63c5ce10905f733f376dacf0</update_guid>
+        <update_guid_history>9707795f63c5ce10905f733f376dacf0:563578392,9607795f6bc5ce10280c12a5a0272631:-42758473,6907395f70c5ce10c5225aa0f6cd5490:-649095338,c205799bb0c5ce107fd9d62176ea9815:-1255432203</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d117795f83c5ce1076389630ceaad39d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:31:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>35fbc8126e60417087160cdac269a739</sys_id>
+        <sys_metadata>0e05799b83c5ce1076389630ceaad313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_0e05799b83c5ce1076389630ceaad313</sys_update_name>
+        <sys_update_version display_value="sp_instance_0e05799b83c5ce1076389630ceaad313">df07795f83c5ce1076389630ceaad3f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:31:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

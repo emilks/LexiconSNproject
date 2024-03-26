@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">59ea52d68301ca1076389630ceaad3c9</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:36:11</sys_created_on>
+        <sys_id>337b921a8301ca1076389630ceaad366</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_337b921a8301ca1076389630ceaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:36:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<style>\r\n        body {\r\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n            background-color: #f5f5f5;\r\n            margin: 0;\r\n            padding: 0;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            height: 100vh;\r\n        }\r\n\r\n        .container {\r\n            max-width: 600px;\r\n            background-color: #ffffff;\r\n            border-radius: 10px;\r\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\r\n            padding: 40px;\r\n            text-align: center;\r\n        }\r\n\r\n        header img {\r\n            max-width: 150px;\r\n            height: auto;\r\n        }\r\n\r\n        h1 {\r\n            color: #333;\r\n            font-size: 28px;\r\n            margin-top: 20px;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.8;\r\n            color: #666;\r\n            margin-bottom: 20px;\r\n        }\r\n\r\n        footer {\r\n            margin-top: 20px;\r\n            text-align: center;\r\n            color: #999;\r\n            font-size: 14px;\r\n        }\r\n\r\n        footer p {\r\n            margin: 0;\r\n        }\r\n    </style>\r\n<div class=\"container\"><header><img src=\"unite_university_logo.png\" alt=\"Unite University Logo\" /></header><main>\r\n<h1>Thank You for Applying to Unite University</h1>\r\n<p>Dear [Applicant's Name],</p>\r\n<p>On behalf of the entire admissions team at Unite University, we extend our heartfelt gratitude for choosing to apply to our esteemed institution. Your interest in joining our community of scholars is deeply appreciated.</p>\r\n<p>At Unite University, we strive to foster an environment that values academic excellence, personal growth, and community engagement. We are committed to providing our students with the tools, resources, and support necessary to thrive both inside and outside the classroom.</p>\r\n</main><footer>\r\n<p>&nbsp;</p>\r\n</footer></div>",
+		"displayValue": "<p>&nbsp;</p>\n<style>\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background-color: #f5f5f5;\n            margin: 0;\n            padding: 0;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n        }\n\n        .container {\n            max-width: 600px;\n            background-color: #ffffff;\n            border-radius: 10px;\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\n            padding: 40px;\n            text-align: center;\n        }\n\n        header img {\n            max-width: 150px;\n            height: auto;\n        }\n\n        h1 {\n            color: #333;\n            font-size: 28px;\n            margin-top: 20px;\n        }\n\n        p {\n            line-height: 1.8;\n            color: #666;\n            margin-bottom: 20px;\n        }\n\n        footer {\n            margin-top: 20px;\n            text-align: center;\n            color: #999;\n            font-size: 14px;\n        }\n\n        footer p {\n            margin: 0;\n        }\n    </style>\n<div class=\"container\"><header><img src=\"unite_university_logo.png\" alt=\"Unite University Logo\" /></header><main>\n<h1>Thank You for Applying to Unite University</h1>\n<p>Dear [Applicant's Name],</p>\n<p>On behalf of the entire admissions team at Unite University, we extend our heartfelt gratitude for choosing to apply to our esteemed institution. Your interest in joining our community of scholars is deeply appreciated.</p>\n<p>At Unite University, we strive to foster an environment that values academic excellence, personal growth, and community engagement. We are committed to providing our students with the tools, resources, and support necessary to thrive both inside and outside the classroom.</p>\n</main><footer>\n<p>&nbsp;</p>\n</footer></div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=337b921a8301ca1076389630ceaad366"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_337b921a8301ca1076389630ceaad366</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;59ea52d68301ca1076389630ceaad3c9&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-22 08:36:11&lt;/sys_created_on&gt;&lt;sys_id&gt;337b921a8301ca1076389630ceaad366&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_337b921a8301ca1076389630ceaad366&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-22 08:36:37&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;style&gt;\r\n        body {\r\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n            background-color: #f5f5f5;\r\n            margin: 0;\r\n            padding: 0;\r\n            display: flex;\r\n            justify-content: center;\r\n            align-items: center;\r\n            height: 100vh;\r\n        }\r\n\r\n        .container {\r\n            max-width: 600px;\r\n            background-color: #ffffff;\r\n            border-radius: 10px;\r\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\r\n            padding: 40px;\r\n            text-align: center;\r\n        }\r\n\r\n        header img {\r\n            max-width: 150px;\r\n            height: auto;\r\n        }\r\n\r\n        h1 {\r\n            color: #333;\r\n            font-size: 28px;\r\n            margin-top: 20px;\r\n        }\r\n\r\n        p {\r\n            line-height: 1.8;\r\n            color: #666;\r\n            margin-bottom: 20px;\r\n        }\r\n\r\n        footer {\r\n            margin-top: 20px;\r\n            text-align: center;\r\n            color: #999;\r\n            font-size: 14px;\r\n        }\r\n\r\n        footer p {\r\n            margin: 0;\r\n        }\r\n    &lt;/style&gt;\r\n&lt;div class=\"container\"&gt;&lt;header&gt;&lt;img src=\"unite_university_logo.png\" alt=\"Unite University Logo\" /&gt;&lt;/header&gt;&lt;main&gt;\r\n&lt;h1&gt;Thank You for Applying to Unite University&lt;/h1&gt;\r\n&lt;p&gt;Dear [Applicant's Name],&lt;/p&gt;\r\n&lt;p&gt;On behalf of the entire admissions team at Unite University, we extend our heartfelt gratitude for choosing to apply to our esteemed institution. Your interest in joining our community of scholars is deeply appreciated.&lt;/p&gt;\r\n&lt;p&gt;At Unite University, we strive to foster an environment that values academic excellence, personal growth, and community engagement. We are committed to providing our students with the tools, resources, and support necessary to thrive both inside and outside the classroom.&lt;/p&gt;\r\n&lt;/main&gt;&lt;footer&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;/footer&gt;&lt;/div&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;style&gt;\n        body {\n            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n            background-color: #f5f5f5;\n            margin: 0;\n            padding: 0;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n        }\n\n        .container {\n            max-width: 600px;\n            background-color: #ffffff;\n            border-radius: 10px;\n            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);\n            padding: 40px;\n            text-align: center;\n        }\n\n        header img {\n            max-width: 150px;\n            height: auto;\n        }\n\n        h1 {\n            color: #333;\n            font-size: 28px;\n            margin-top: 20px;\n        }\n\n        p {\n            line-height: 1.8;\n            color: #666;\n            margin-bottom: 20px;\n        }\n\n        footer {\n            margin-top: 20px;\n            text-align: center;\n            color: #999;\n            font-size: 14px;\n        }\n\n        footer p {\n            margin: 0;\n        }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;&lt;header&gt;&lt;img src=\"unite_university_logo.png\" alt=\"Unite University Logo\" /&gt;&lt;/header&gt;&lt;main&gt;\n&lt;h1&gt;Thank You for Applying to Unite University&lt;/h1&gt;\n&lt;p&gt;Dear [Applicant's Name],&lt;/p&gt;\n&lt;p&gt;On behalf of the entire admissions team at Unite University, we extend our heartfelt gratitude for choosing to apply to our esteemed institution. Your interest in joining our community of scholars is deeply appreciated.&lt;/p&gt;\n&lt;p&gt;At Unite University, we strive to foster an environment that values academic excellence, personal growth, and community engagement. We are committed to providing our students with the tools, resources, and support necessary to thrive both inside and outside the classroom.&lt;/p&gt;\n&lt;/main&gt;&lt;footer&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;/footer&gt;&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=337b921a8301ca1076389630ceaad366"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1314905608</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:36:38</sys_created_on>
+        <sys_id>a69bde1a8301ca1076389630ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e654e0fa80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:36:38</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>6e9bde1a5801ca107f1ca3e1ced7e014</update_guid>
+        <update_guid_history>6e9bde1a5801ca107f1ca3e1ced7e014:1314905608,128b96d63c01ca1085cc4bba4bcbbd1e:466912326,3b7b921a5401ca107da06b2960595467:-642825650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a9bb125a8301ca1076389630ceaad3ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 08:37:07</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>26c7d5be43884790b0befdd8258e9900</sys_id>
+        <sys_metadata>337b921a8301ca1076389630ceaad366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_337b921a8301ca1076389630ceaad366</sys_update_name>
+        <sys_update_version display_value="sp_instance_337b921a8301ca1076389630ceaad366">a69bde1a8301ca1076389630ceaad315</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 08:37:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>COUNT(DISTINCT</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -102,19 +102,19 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>status</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-19 09:23:10</sys_created_on>
         <sys_id>32798f558381861076389630ceaad32c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>All Opened Records</sys_name>
         <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
         <sys_update_name>sys_report_32798f558381861076389630ceaad32c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 15:07:35</sys_updated_on>
+        <sys_updated_on>2024-03-25 09:48:51</sys_updated_on>
         <table>x_1342897_unite_un_applicant</table>
         <title>All Opened Records</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

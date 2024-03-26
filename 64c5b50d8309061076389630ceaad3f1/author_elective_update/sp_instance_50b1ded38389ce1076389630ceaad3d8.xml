@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">afddcb1d8381861076389630ceaad39e</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 10:27:16</sys_created_on>
+        <sys_id>50b1ded38389ce1076389630ceaad3d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_50b1ded38389ce1076389630ceaad3d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:46:35</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&nbsp;</p>\r\n<style>\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 0;\r\n            background-color: #f4f4f4;\r\n        }\r\n        .container {\r\n            max-width: 800px;\r\n            margin: 20px auto;\r\n            background-color: #fff;\r\n            padding: 20px;\r\n            border-radius: 8px;\r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\r\n        }\r\n        table {\r\n            width: 100%;\r\n            border-collapse: collapse;\r\n            margin-top: 20px;\r\n        }\r\n        th, td {\r\n            padding: 10px;\r\n            border-bottom: 1px solid #ddd;\r\n            text-align: left;\r\n        }\r\n        th {\r\n            background-color: #f2f2f2;\r\n        }\r\n        h1 {\r\n            text-align: center;\r\n        }\r\n    </style>\r\n<div class=\"container\">\r\n<h1>Computer Science Student Schedule</h1>\r\n<table>\r\n<tbody>\r\n<tr>\r\n<th>Time</th>\r\n<th>Monday</th>\r\n<th>Tuesday</th>\r\n<th>Wednesday</th>\r\n<th>Thursday</th>\r\n<th>Friday</th>\r\n</tr>\r\n<tr>\r\n<td>9:00 AM - 10:30 AM</td>\r\n<td>Computer Architecture</td>\r\n<td>&nbsp;</td>\r\n<td>Data Structures and Algorithms</td>\r\n<td>Software Engineering</td>\r\n<td>&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td>10:45 AM - 12:15 PM</td>\r\n<td>&nbsp;</td>\r\n<td>Database Management Systems</td>\r\n<td>&nbsp;</td>\r\n<td>Computer Networks</td>\r\n<td>&nbsp;</td>\r\n</tr>\r\n<tr>\r\n<td>12:30 PM - 2:00 PM</td>\r\n<td>Lunch Break</td>\r\n<td>Lunch Break</td>\r\n<td>Lunch Break</td>\r\n<td>Lunch Break</td>\r\n<td>Lunch Break</td>\r\n</tr>\r\n<tr>\r\n<td>2:00 PM - 3:30 PM</td>\r\n<td>&nbsp;</td>\r\n<td>Operating Systems</td>\r\n<td>Web Development</td>\r\n<td>&nbsp;</td>\r\n<td>Computer Graphics</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n</div>",
+		"displayValue": "<p>&nbsp;</p>\n<style>\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n        .container {\n            max-width: 800px;\n            margin: 20px auto;\n            background-color: #fff;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n        }\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-top: 20px;\n        }\n        th, td {\n            padding: 10px;\n            border-bottom: 1px solid #ddd;\n            text-align: left;\n        }\n        th {\n            background-color: #f2f2f2;\n        }\n        h1 {\n            text-align: center;\n        }\n    </style>\n<div class=\"container\">\n<h1>Computer Science Student Schedule</h1>\n<table>\n<tbody>\n<tr>\n<th>Time</th>\n<th>Monday</th>\n<th>Tuesday</th>\n<th>Wednesday</th>\n<th>Thursday</th>\n<th>Friday</th>\n</tr>\n<tr>\n<td>9:00 AM - 10:30 AM</td>\n<td>Computer Architecture</td>\n<td>&nbsp;</td>\n<td>Data Structures and Algorithms</td>\n<td>Software Engineering</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>10:45 AM - 12:15 PM</td>\n<td>&nbsp;</td>\n<td>Database Management Systems</td>\n<td>&nbsp;</td>\n<td>Computer Networks</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>12:30 PM - 2:00 PM</td>\n<td>Lunch Break</td>\n<td>Lunch Break</td>\n<td>Lunch Break</td>\n<td>Lunch Break</td>\n<td>Lunch Break</td>\n</tr>\n<tr>\n<td>2:00 PM - 3:30 PM</td>\n<td>&nbsp;</td>\n<td>Operating Systems</td>\n<td>Web Development</td>\n<td>&nbsp;</td>\n<td>Computer Graphics</td>\n</tr>\n</tbody>\n</table>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=50b1ded38389ce1076389630ceaad3d8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_50b1ded38389ce1076389630ceaad3d8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;afddcb1d8381861076389630ceaad39e&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-25 10:27:16&lt;/sys_created_on&gt;&lt;sys_id&gt;50b1ded38389ce1076389630ceaad3d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_50b1ded38389ce1076389630ceaad3d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-25 10:46:35&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\r\n&lt;style&gt;\r\n        body {\r\n            font-family: Arial, sans-serif;\r\n            margin: 0;\r\n            padding: 0;\r\n            background-color: #f4f4f4;\r\n        }\r\n        .container {\r\n            max-width: 800px;\r\n            margin: 20px auto;\r\n            background-color: #fff;\r\n            padding: 20px;\r\n            border-radius: 8px;\r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\r\n        }\r\n        table {\r\n            width: 100%;\r\n            border-collapse: collapse;\r\n            margin-top: 20px;\r\n        }\r\n        th, td {\r\n            padding: 10px;\r\n            border-bottom: 1px solid #ddd;\r\n            text-align: left;\r\n        }\r\n        th {\r\n            background-color: #f2f2f2;\r\n        }\r\n        h1 {\r\n            text-align: center;\r\n        }\r\n    &lt;/style&gt;\r\n&lt;div class=\"container\"&gt;\r\n&lt;h1&gt;Computer Science Student Schedule&lt;/h1&gt;\r\n&lt;table&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;th&gt;Time&lt;/th&gt;\r\n&lt;th&gt;Monday&lt;/th&gt;\r\n&lt;th&gt;Tuesday&lt;/th&gt;\r\n&lt;th&gt;Wednesday&lt;/th&gt;\r\n&lt;th&gt;Thursday&lt;/th&gt;\r\n&lt;th&gt;Friday&lt;/th&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;9:00 AM - 10:30 AM&lt;/td&gt;\r\n&lt;td&gt;Computer Architecture&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;td&gt;Data Structures and Algorithms&lt;/td&gt;\r\n&lt;td&gt;Software Engineering&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;10:45 AM - 12:15 PM&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;td&gt;Database Management Systems&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;td&gt;Computer Networks&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;12:30 PM - 2:00 PM&lt;/td&gt;\r\n&lt;td&gt;Lunch Break&lt;/td&gt;\r\n&lt;td&gt;Lunch Break&lt;/td&gt;\r\n&lt;td&gt;Lunch Break&lt;/td&gt;\r\n&lt;td&gt;Lunch Break&lt;/td&gt;\r\n&lt;td&gt;Lunch Break&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td&gt;2:00 PM - 3:30 PM&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;td&gt;Operating Systems&lt;/td&gt;\r\n&lt;td&gt;Web Development&lt;/td&gt;\r\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\r\n&lt;td&gt;Computer Graphics&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;/div&gt;",
+		"displayValue": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;style&gt;\n        body {\n            font-family: Arial, sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f4f4f4;\n        }\n        .container {\n            max-width: 800px;\n            margin: 20px auto;\n            background-color: #fff;\n            padding: 20px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n        }\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-top: 20px;\n        }\n        th, td {\n            padding: 10px;\n            border-bottom: 1px solid #ddd;\n            text-align: left;\n        }\n        th {\n            background-color: #f2f2f2;\n        }\n        h1 {\n            text-align: center;\n        }\n    &lt;/style&gt;\n&lt;div class=\"container\"&gt;\n&lt;h1&gt;Computer Science Student Schedule&lt;/h1&gt;\n&lt;table&gt;\n&lt;tbody&gt;\n&lt;tr&gt;\n&lt;th&gt;Time&lt;/th&gt;\n&lt;th&gt;Monday&lt;/th&gt;\n&lt;th&gt;Tuesday&lt;/th&gt;\n&lt;th&gt;Wednesday&lt;/th&gt;\n&lt;th&gt;Thursday&lt;/th&gt;\n&lt;th&gt;Friday&lt;/th&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;9:00 AM - 10:30 AM&lt;/td&gt;\n&lt;td&gt;Computer Architecture&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;td&gt;Data Structures and Algorithms&lt;/td&gt;\n&lt;td&gt;Software Engineering&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;10:45 AM - 12:15 PM&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;td&gt;Database Management Systems&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;td&gt;Computer Networks&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;12:30 PM - 2:00 PM&lt;/td&gt;\n&lt;td&gt;Lunch Break&lt;/td&gt;\n&lt;td&gt;Lunch Break&lt;/td&gt;\n&lt;td&gt;Lunch Break&lt;/td&gt;\n&lt;td&gt;Lunch Break&lt;/td&gt;\n&lt;td&gt;Lunch Break&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;2:00 PM - 3:30 PM&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;td&gt;Operating Systems&lt;/td&gt;\n&lt;td&gt;Web Development&lt;/td&gt;\n&lt;td&gt;&amp;nbsp;&lt;/td&gt;\n&lt;td&gt;Computer Graphics&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;\n&lt;/table&gt;\n&lt;/div&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=50b1ded38389ce1076389630ceaad3d8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>656332308</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 10:46:36</sys_created_on>
+        <sys_id>d716969b8389ce1076389630ceaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e75381f660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:46:36</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>9f16969b3d89ce101e1cfb0666edcd6f</update_guid>
+        <update_guid_history>9f16969b3d89ce101e1cfb0666edcd6f:656332308,9df5de5bf489ce10e75b71af87082e6a:1644433301,4fd5de5bda89ce10fae77c9d23c5da30:1130413671,1cb1ded38f89ce10da264a731d550dd9:866392806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1716969b8389ce1076389630ceaad301</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 10:46:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>510cb0f88e24440094ae354a0b325040</sys_id>
+        <sys_metadata>50b1ded38389ce1076389630ceaad3d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_50b1ded38389ce1076389630ceaad3d8</sys_update_name>
+        <sys_update_version display_value="sp_instance_50b1ded38389ce1076389630ceaad3d8">d716969b8389ce1076389630ceaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:46:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

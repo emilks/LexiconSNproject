@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="DELETE">
+        <css>/* Transparent Menu Bar */&#13;
+.navbar-inverse.navbar {&#13;
+    background-color: transparent;&#13;
+    border-bottom: 0px;&#13;
+    width: 99%;&#13;
+    z-index: 200;&#13;
+}&#13;
+/* Menu Item Background */&#13;
+#sp-nav-bar {&#13;
+    background-color: rgba(46, 46, 46, .80);&#13;
+    border-radius: 0 0 8px 8px;&#13;
+    padding-right: 8px;&#13;
+    margin-right: 0 !important;&#13;
+}&#13;
+&#13;
+/* Remove link hover in header */&#13;
+#sp-nav-bar a:hover {&#13;
+    background-color: unset !important;&#13;
+}</css>
+        <name>Unite</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 23:39:26</sys_created_on>
+        <sys_id>922aad6a83010e1076389630ceaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unite</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_css_922aad6a83010e1076389630ceaad364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 23:39:26</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_css>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_css_922aad6a83010e1076389630ceaad364</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css"><sp_css action="INSERT_OR_UPDATE"><css>/* Transparent Menu Bar */&#13;
+.navbar-inverse.navbar {&#13;
+    background-color: transparent;&#13;
+    border-bottom: 0px;&#13;
+    width: 99%;&#13;
+    z-index: 200;&#13;
+}&#13;
+/* Menu Item Background */&#13;
+#sp-nav-bar {&#13;
+    background-color: rgba(46, 46, 46, .80);&#13;
+    border-radius: 0 0 8px 8px;&#13;
+    padding-right: 8px;&#13;
+    margin-right: 0 !important;&#13;
+}&#13;
+&#13;
+/* Remove link hover in header */&#13;
+#sp-nav-bar a:hover {&#13;
+    background-color: unset !important;&#13;
+}</css><name>Unite</name><sys_class_name>sp_css</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 23:39:26</sys_created_on><sys_id>922aad6a83010e1076389630ceaad364</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unite</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sp_css_922aad6a83010e1076389630ceaad364</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 23:39:26</sys_updated_on><turn_off_scss_compilation>false</turn_off_scss_compilation></sp_css></record_update>]]></payload>
+        <payload_hash>1560095169</payload_hash>
+        <record_name>Unite</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 23:39:26</sys_created_on>
+        <sys_id>cb3aad6a83010e1076389630ceaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e688899cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 23:39:26</sys_updated_on>
+        <type>Style Sheet</type>
+        <update_guid>033aad6ad5010e10558a02929904a8bf</update_guid>
+        <update_guid_history>033aad6ad5010e10558a02929904a8bf:1560095169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Unite">1baa6dea83010e1076389630ceaad306</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 23:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_css">sp_css</sys_db_object>
+        <sys_id>51363c4b9f554431af40104516c658a1</sys_id>
+        <sys_metadata>922aad6a83010e1076389630ceaad364</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unite</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_css_922aad6a83010e1076389630ceaad364</sys_update_name>
+        <sys_update_version display_value="sp_css_922aad6a83010e1076389630ceaad364">cb3aad6a83010e1076389630ceaad3bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 23:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

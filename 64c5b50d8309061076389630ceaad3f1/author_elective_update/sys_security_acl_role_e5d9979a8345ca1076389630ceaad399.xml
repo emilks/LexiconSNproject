@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 13:08:47</sys_created_on>
+        <sys_id>e5d9979a8345ca1076389630ceaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1342897_unite_un_applicant.public</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_security_acl display_value="x_1342897_unite_un_applicant">6dd8bdcd8309061076389630ceaad3c6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e5d9979a8345ca1076389630ceaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 13:08:47</sys_updated_on>
+        <sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_security_acl_role_e5d9979a8345ca1076389630ceaad399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-22 13:08:47</sys_created_on><sys_id>e5d9979a8345ca1076389630ceaad399</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1342897_unite_un_applicant.public</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_security_acl display_value="x_1342897_unite_un_applicant">6dd8bdcd8309061076389630ceaad3c6</sys_security_acl><sys_update_name>sys_security_acl_role_e5d9979a8345ca1076389630ceaad399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-22 13:08:47</sys_updated_on><sys_user_role display_value="public" name="public">b0593b350a0a0aa7001d689e4542dc28</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-2033982681</payload_hash>
+        <record_name>x_1342897_unite_un_applicant.public</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 13:08:47</sys_created_on>
+        <sys_id>c9e9d79a8345ca1076389630ceaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6647384a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 13:08:47</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>01e9d79a4745ca10cf1724cfb566eda0</update_guid>
+        <update_guid_history>01e9d79a4745ca10cf1724cfb566eda0:-2033982681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1342897_unite_un_applicant.public">109d1fde8345ca1076389630ceaad37d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-22 13:24:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2f2b7fbb60f34ae79d5d360d8de7dc69</sys_id>
+        <sys_metadata>e5d9979a8345ca1076389630ceaad399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1342897_unite_un_applicant.public</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent display_value="x_1342897_unite_un_applicant">6dd8bdcd8309061076389630ceaad3c6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e5d9979a8345ca1076389630ceaad399</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e5d9979a8345ca1076389630ceaad399">c9e9d79a8345ca1076389630ceaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-22 13:24:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

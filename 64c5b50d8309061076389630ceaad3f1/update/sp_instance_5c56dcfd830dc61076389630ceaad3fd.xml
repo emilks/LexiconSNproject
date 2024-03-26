@@ -3,27 +3,30 @@
         <active>true</active>
         <class_name/>
         <color>default</color>
-        <css/>
+        <css>.kb-article-list{
+   border-radius: 50%;
+}
+</css>
         <glyph/>
         <id/>
         <order>1</order>
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="1">b105947d830dc61076389630ceaad373</sp_column>
+        <sp_column display_value="">7fb22bd68385ca1076389630ceaad3ae</sp_column>
         <sp_widget display_value="Knowledge MostViewed Articles">d4f0d56cdb68320099f93691f0b8f502</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-20 09:37:21</sys_created_on>
         <sys_id>5c56dcfd830dc61076389630ceaad3fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
         <sys_policy/>
         <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
         <sys_update_name>sp_instance_5c56dcfd830dc61076389630ceaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 09:37:33</sys_updated_on>
+        <sys_updated_on>2024-03-25 10:27:17</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
@@ -52,8 +55,8 @@
 		"displayValue": ""
 	},
 	"knowledge_base": {
-		"value": "dfc19531bf2021003f07e2c1ac0739ab",
-		"displayValue": "Knowledge"
+		"value": "9ff8124e830d4a1076389630ceaad34a",
+		"displayValue": "Unite University"
 	}
 }]]></widget_parameters>
     </sp_instance>

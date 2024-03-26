@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Submit the Record Producer and confirm submission to server</description>
+        <display_name>Submit Record Producer (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:01:15</sys_created_on>
+        <sys_id>ea3c1a82834d4a1076389630ceaad3f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sys_atf_step_ea3c1a82834d4a1076389630ceaad3f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:01:15</sys_updated_on>
+        <table/>
+        <test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=ea3c1a82834d4a1076389630ceaad3f5"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>ea3c1a82834d4a1076389630ceaad3f5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:01:16</sys_created_on>
+        <sys_id>805cd682834d4a1076389630ceaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:01:16</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sys_atf_step_ea3c1a82834d4a1076389630ceaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Submit the Record Producer and confirm submission to server</description><display_name>Submit Record Producer (SP)</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:01:15</sys_created_on><sys_id>ea3c1a82834d4a1076389630ceaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit Record Producer (SP)</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sys_atf_step_ea3c1a82834d4a1076389630ceaad3f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:01:15</sys_updated_on><table/><test display_value="Unite Applying Test">77cb9e42834d4a1076389630ceaad3de</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=ea3c1a82834d4a1076389630ceaad3f5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>ea3c1a82834d4a1076389630ceaad3f5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-21 14:01:16</sys_created_on><sys_id>805cd682834d4a1076389630ceaad373</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-21 14:01:16</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1992823791</payload_hash>
+        <record_name>Submit Record Producer (SP)</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:01:16</sys_created_on>
+        <sys_id>0c5cd682834d4a1076389630ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e6150e8fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:01:16</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>405cd682104d4a10363db7fe4dc0ec75</update_guid>
+        <update_guid_history>405cd682104d4a10363db7fe4dc0ec75:1992823791</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 14:01:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>12d75b23e85b480c912b16c22426b690</sys_id>
+        <sys_metadata>ea3c1a82834d4a1076389630ceaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sys_atf_step_ea3c1a82834d4a1076389630ceaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_ea3c1a82834d4a1076389630ceaad3f5">0c5cd682834d4a1076389630ceaad375</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 14:01:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="">ffb22bd68385ca1076389630ceaad3b0</sp_column>
+        <sp_page display_value="actsub_notif_pref">e2f75af6534132007a97e192d5dc3422</sp_page>
+        <sp_widget display_value="News Ticker">a9a0b0dec3623100c8b837659bba8f80</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 09:28:01</sys_created_on>
+        <sys_id>b7249cf9830dc61076389630ceaad32f</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Unite News</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_vlist_b7249cf9830dc61076389630ceaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:27:18</sys_updated_on>
+        <table>announcement</table>
+        <title>Unite News</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=b7249cf9830dc61076389630ceaad32f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_vlist_b7249cf9830dc61076389630ceaad32f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="">ffb22bd68385ca1076389630ceaad3b0</sp_column><sp_page display_value="actsub_notif_pref">e2f75af6534132007a97e192d5dc3422</sp_page><sp_widget display_value="News Ticker">a9a0b0dec3623100c8b837659bba8f80</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-20 09:28:01</sys_created_on><sys_id>b7249cf9830dc61076389630ceaad32f</sys_id><sys_mod_count>21</sys_mod_count><sys_name>Unite News</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sp_instance_vlist_b7249cf9830dc61076389630ceaad32f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-25 10:27:18</sys_updated_on><table>announcement</table><title>Unite News</title><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=b7249cf9830dc61076389630ceaad32f"/></record_update>]]></payload>
+        <payload_hash>1990571778</payload_hash>
+        <record_name>Unite News</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 10:27:18</sys_created_on>
+        <sys_id>b4b156178389ce1076389630ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e752673f30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:27:18</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>7cb15617a089ce1055641db860d854bd</update_guid>
+        <update_guid_history>7cb15617a089ce1055641db860d854bd:1990571778,4ee052d33a89ce10c5ee0a983a5cbb6b:-1784071195,58e012d31889ce10cd6c73bbed1f17c7:1150607183,71d0de936189ce1089c4f613d435c794:-1503455506,91a01a930f89ce1036f79abfd5c3319c:137449101,a9efc6530b89ce1095e0006a41ded138:-1503455506,056b021f3c49ce10994459be433f88b6:137449101,fef20a13a749ce10649643aed8a5b228:-1503455506,7391469f8509ce10f8b61978487ba232:1150607183,e191069fc909ce107fe4d1b1ac4e2c5e:466618454,cd718e5f7e09ce108844ef11f1bcf124:503185422,89610e5f4109ce10d706b4252de9f8cd:438088327,12510e5f7909ce106ecb822e3dc70afa:1150607183,e621c65fac09ce10de3eb1a8b71e995c:1703725520,1201065f3109ce103e2bffda345b20a6:1804631255,26d0025fda09ce102cae994ce285483b:1810478806,a4d22fd69b85ca10a3853aa0225396de:1150607183,50b02b169685ca10c08953cd6ae1dfc3:674574544,835023162185ca1006bcac6cb6cc90e1:-2044247781,95ff5bd2c985ca10a23bc70611c9ac8c:2095803896,5f94143d7d0dc6100bb097f937e0f69c:1311311419,f7249cf91f0dc61014e24a67e007fd31:1972666914</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Unite News">521256178389ce1076389630ceaad386</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 10:29:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>7e7f4f15d47d4dd8aa9c4f77b59a3f10</sys_id>
+        <sys_metadata>b7249cf9830dc61076389630ceaad32f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unite News</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_b7249cf9830dc61076389630ceaad32f</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_b7249cf9830dc61076389630ceaad32f">b4b156178389ce1076389630ceaad3be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 10:29:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

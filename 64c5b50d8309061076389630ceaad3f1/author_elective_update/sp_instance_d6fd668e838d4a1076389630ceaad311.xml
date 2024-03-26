@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1efd268e838d4a1076389630ceaad3e3</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 15:18:26</sys_created_on>
+        <sys_id>d6fd668e838d4a1076389630ceaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_instance_d6fd668e838d4a1076389630ceaad311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 15:18:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p>&lt;marquee style=\"color:white;\" &nbsp;scrolldelay=\"10\" &nbsp;onmouseover=\"this.stop();\" onmouseout=\"this.start();\"&gt;<br />&nbsp; &nbsp; ]]>🔊<![CDATA[ <strong>WE ARE HAPPY TO HAVE YOU WITH US</strong>!<br />&lt;/marquee&gt;</p>",
+		"displayValue": "<p>&lt;marquee style=\"color:white;\" &nbsp;scrolldelay=\"10\" &nbsp;onmouseover=\"this.stop();\" onmouseout=\"this.start();\"&gt;<br />&nbsp; &nbsp; ]]>🔊<![CDATA[ <strong>WE ARE HAPPY TO HAVE YOU WITH US</strong>!<br />&lt;/marquee&gt;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d6fd668e838d4a1076389630ceaad311"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_instance_d6fd668e838d4a1076389630ceaad311</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;1efd268e838d4a1076389630ceaad3e3&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-03-21 15:18:26&lt;/sys_created_on&gt;&lt;sys_id&gt;d6fd668e838d4a1076389630ceaad311&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Unite University" source="x_1342897_unite_un"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Unite University"&gt;64c5b50d8309061076389630ceaad3f1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d6fd668e838d4a1076389630ceaad311&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-03-21 15:18:26&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&amp;lt;marquee style=\"color:white;\" &amp;nbsp;scrolldelay=\"10\" &amp;nbsp;onmouseover=\"this.stop();\" onmouseout=\"this.start();\"&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp; ]]&gt;🔊&lt;![CDATA[ &lt;strong&gt;WE ARE HAPPY TO HAVE YOU WITH US&lt;/strong&gt;!&lt;br /&gt;&amp;lt;/marquee&amp;gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&amp;lt;marquee style=\"color:white;\" &amp;nbsp;scrolldelay=\"10\" &amp;nbsp;onmouseover=\"this.stop();\" onmouseout=\"this.start();\"&amp;gt;&lt;br /&gt;&amp;nbsp; &amp;nbsp; ]]&gt;🔊&lt;![CDATA[ &lt;strong&gt;WE ARE HAPPY TO HAVE YOU WITH US&lt;/strong&gt;!&lt;br /&gt;&amp;lt;/marquee&amp;gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d6fd668e838d4a1076389630ceaad311"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>379481126</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 15:18:26</sys_created_on>
+        <sys_id>96fd668e838d4a1076389630ceaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e61978ed60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 15:18:26</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>dafd668eb08d4a105f074d12eb5a9d12</update_guid>
+        <update_guid_history>dafd668eb08d4a105f074d12eb5a9d12:379481126</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">320ea68e838d4a1076389630ceaad3b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-21 15:18:44</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>1a6ccd735cf34450ba1c48c16cdfee40</sys_id>
+        <sys_metadata>d6fd668e838d4a1076389630ceaad311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_instance_d6fd668e838d4a1076389630ceaad311</sys_update_name>
+        <sys_update_version display_value="sp_instance_d6fd668e838d4a1076389630ceaad311">96fd668e838d4a1076389630ceaad313</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-21 15:18:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

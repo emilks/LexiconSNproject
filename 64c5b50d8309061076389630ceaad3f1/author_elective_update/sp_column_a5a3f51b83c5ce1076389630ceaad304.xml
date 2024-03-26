@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">e1a3b51b83c5ce1076389630ceaad3f8</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:16:00</sys_created_on>
+        <sys_id>a5a3f51b83c5ce1076389630ceaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_column_a5a3f51b83c5ce1076389630ceaad304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:16:00</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_column_a5a3f51b83c5ce1076389630ceaad304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><semantic_tag/><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">e1a3b51b83c5ce1076389630ceaad3f8</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-25 08:16:00</sys_created_on><sys_id>a5a3f51b83c5ce1076389630ceaad304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sp_column_a5a3f51b83c5ce1076389630ceaad304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-25 08:16:00</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>360615134</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:16:00</sys_created_on>
+        <sys_id>a1a3f51b83c5ce1076389630ceaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74ae41570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:16:00</sys_updated_on>
+        <type>Column</type>
+        <update_guid>e5a3f51bc7c5ce109eb762076d4ffc05</update_guid>
+        <update_guid_history>e5a3f51bc7c5ce109eb762076d4ffc05:360615134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">78f4f59b83c5ce1076389630ceaad300</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:21:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>4e79396606a3422da006e14ce3f11921</sys_id>
+        <sys_metadata>a5a3f51b83c5ce1076389630ceaad304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_column_a5a3f51b83c5ce1076389630ceaad304</sys_update_name>
+        <sys_update_version display_value="sp_column_a5a3f51b83c5ce1076389630ceaad304">a1a3f51b83c5ce1076389630ceaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:21:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

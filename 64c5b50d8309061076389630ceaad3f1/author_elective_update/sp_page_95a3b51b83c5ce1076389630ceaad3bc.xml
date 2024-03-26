@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css>/* Transparent Menu Bar */
+.navbar-inverse.navbar {
+    background-color: transparent;
+    border-bottom: 0px;
+    position: absolute;
+    width: 99%;
+    z-index: 200;
+}
+/* Menu Item Background */
+#sp-nav-bar {
+    background-color: rgba(46, 46, 46, .80);
+    border-radius: 0 0 8px 8px;
+    padding-right: 8px;
+    margin-right: 0 !important;
+}
+
+/* Remove link hover in header */
+#sp-nav-bar a:hover {
+    background-color: unset !important;
+}
+
+/* Remove white gap on top of hero */
+ body .padding-top {
+  padding-top: 0rem;
+}
+
+.hero {
+	height: 30rem;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 {
+	color: white;
+  padding-top: 150px;
+  margin:0;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 strong {
+	font-size: 60px;
+  text-shadow: -2px 4px 8px #03244d;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 h3 {
+	font-size: 35px;
+  text-shadow: -2px 4px 8px #03244d;
+}
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>unite_login_landing</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:15:59</sys_created_on>
+        <sys_id>95a3b51b83c5ce1076389630ceaad3bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>unite_login_landing</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_update_name>sp_page_95a3b51b83c5ce1076389630ceaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:18:21</sys_updated_on>
+        <title>Unite University Login</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=95a3b51b83c5ce1076389630ceaad3bc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Unite University">64c5b50d8309061076389630ceaad3f1</application>
+        <file_path/>
+        <instance_id>4d927d081bcdc65c7d9d2f8dee4bcbda</instance_id>
+        <instance_name>dev243288</instance_name>
+        <name>sp_page_95a3b51b83c5ce1076389630ceaad3bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>/* Transparent Menu Bar */
+.navbar-inverse.navbar {
+    background-color: transparent;
+    border-bottom: 0px;
+    position: absolute;
+    width: 99%;
+    z-index: 200;
+}
+/* Menu Item Background */
+#sp-nav-bar {
+    background-color: rgba(46, 46, 46, .80);
+    border-radius: 0 0 8px 8px;
+    padding-right: 8px;
+    margin-right: 0 !important;
+}
+
+/* Remove link hover in header */
+#sp-nav-bar a:hover {
+    background-color: unset !important;
+}
+
+/* Remove white gap on top of hero */
+ body .padding-top {
+  padding-top: 0rem;
+}
+
+.hero {
+	height: 30rem;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 {
+	color: white;
+  padding-top: 150px;
+  margin:0;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 strong {
+	font-size: 60px;
+  text-shadow: -2px 4px 8px #03244d;
+}
+
+.ng-scope.c4ab41bc18301461076389630ceaad3b7 h3 {
+	font-size: 35px;
+  text-shadow: -2px 4px 8px #03244d;
+}
+</css><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>unite_login_landing</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-25 08:15:59</sys_created_on><sys_id>95a3b51b83c5ce1076389630ceaad3bc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>unite_login_landing</sys_name><sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package><sys_policy/><sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope><sys_update_name>sp_page_95a3b51b83c5ce1076389630ceaad3bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-25 08:18:21</sys_updated_on><title>Unite University Login</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=95a3b51b83c5ce1076389630ceaad3bc"/></record_update>]]></payload>
+        <payload_hash>446210977</payload_hash>
+        <record_name>unite_login_landing</record_name>
+        <reverted_from/>
+        <source>c4edb1858349061076389630ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:18:22</sys_created_on>
+        <sys_id>8c34f15b83c5ce1076389630ceaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e74b06af30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:18:22</sys_updated_on>
+        <type>Page</type>
+        <update_guid>4434f15bafc5ce1039383769486c071f</update_guid>
+        <update_guid_history>4434f15bafc5ce1039383769486c071f:446210977,7614715bd3c5ce105fb10364e6c64c67:-352828753,11a3b51badc5ce101d3714b79ce136be:2053684023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="unite_login_landing">3cf4f59b83c5ce1076389630ceaad327</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-25 08:21:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>1c0c817ab9254379a0bd07d84925cad1</sys_id>
+        <sys_metadata>95a3b51b83c5ce1076389630ceaad3bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unite_login_landing</sys_name>
+        <sys_package display_value="Unite University" source="x_1342897_unite_un">64c5b50d8309061076389630ceaad3f1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Unite University">64c5b50d8309061076389630ceaad3f1</sys_scope>
+        <sys_scope_delete display_value="">01ec2cc0c43547c681cd893d1526bd09</sys_scope_delete>
+        <sys_update_name>sp_page_95a3b51b83c5ce1076389630ceaad3bc</sys_update_name>
+        <sys_update_version display_value="sp_page_95a3b51b83c5ce1076389630ceaad3bc">8c34f15b83c5ce1076389630ceaad31f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-25 08:21:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
